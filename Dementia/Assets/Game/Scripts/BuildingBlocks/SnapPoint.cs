@@ -4,7 +4,8 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class SnapPoint : MonoBehaviour
 {
-    PathBlock mParentBlock;
+    [HideInInspector]
+    public PathBlock mParentBlock;
 
     void Start()
     {
@@ -33,11 +34,18 @@ public class SnapPoint : MonoBehaviour
         {
             return;
         }
+        if(!WaypointManager.CanMakeConnection(mParentBlock.GetInstanceID()))
+        {
+            return;
+        }
         SnapPoint aSP = other.GetComponent<SnapPoint>();
         if (aSP != null)
         {
-            Debug.Log("Triggered Snap Point");
             if (aSP.mParentBlock.GetInstanceID() == mParentBlock.GetInstanceID())
+            {
+                return;
+            }
+            if(!WaypointManager.CanMakeConnection(aSP.mParentBlock.GetInstanceID()))
             {
                 return;
             }
@@ -50,7 +58,29 @@ public class SnapPoint : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
+        if(!mParentBlock.mIsMoving)
+        {
+            return;
+        }
 
+        SnapPoint aSP = other.GetComponent<SnapPoint>();
+        if(aSP != null)
+        {
+            if (aSP.mParentBlock.GetInstanceID() == mParentBlock.GetInstanceID())
+            {
+                return;
+            }
+            if(mParentBlock.mCurrentConnection.mSelfBlockSnapPoint == this)
+            {
+                WaypointManager.RemovePreviousConnection(mParentBlock.mCurrentConnection);
+                mParentBlock.mCurrentConnection.mSelfBlockSnapPoint = null;
+                mParentBlock.mCurrentConnection.mOtherBlockSnapPoint = null;
+            }
+            else if(mParentBlock.mActiveClosestPoints.ContainsKey(this.GetInstanceID()))
+            {
+                mParentBlock.mActiveClosestPoints.Remove(this.GetInstanceID());
+            }
+        }
     }
 
 }
