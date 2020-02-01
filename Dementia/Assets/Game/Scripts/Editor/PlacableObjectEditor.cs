@@ -9,6 +9,10 @@ public class PlacableObjectEditor : Editor
     private void OnSceneGUI()
     {
         PlacableObject po = (PlacableObject)target;
+        if(!po.mUseEditor)
+        {
+            return;
+        }
 
         foreach (Transform sp in po.snapingPoints)
         {
