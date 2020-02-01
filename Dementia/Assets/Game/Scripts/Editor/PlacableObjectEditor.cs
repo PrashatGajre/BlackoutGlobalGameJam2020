@@ -16,11 +16,25 @@ public class PlacableObjectEditor : Editor
             sp.rotation = Handles.DoRotationHandle(sp.rotation, sp.position);
         }
 
+        for(int i = 0; i < po.wayPoints.Count; i++)
+        {
+            po.wayPoints[i] = Handles.DoPositionHandle(po.wayPoints[i], Quaternion.identity);
+        }
+
+        Handles.color = Color.red;
+        Handles.DrawPolyLine(po.wayPoints.ToArray());
+
         Handles.BeginGUI();
         if (GUILayout.Button("new node"))
         {
             po.snapingPoints.Add(Instantiate(po.spPrefab, po.transform).transform);
         }
+        if (GUILayout.Button("new waypoint"))
+        {
+            po.snapingPoints.Add(Instantiate(po.spPrefab, po.transform).transform);
+        }
         Handles.EndGUI();
+
+
     }
 }
