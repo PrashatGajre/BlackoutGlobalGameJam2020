@@ -28,7 +28,8 @@ public class PlayerMovement : MonoBehaviour
             if (mStartDelay <= 0.0f)
             {
                 mIsMoving = true;
-                mCurrentWaypoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint == null,transform.position);
+                mCurrentWaypoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint,mPreviousWaypoint,transform.position);
+                mMovePosition = mCurrentWaypoint.transform.position;
             }
             mStartDelay -= Time.deltaTime;
             return;
@@ -37,16 +38,19 @@ public class PlayerMovement : MonoBehaviour
         if (transform.position.x <= mMovePosition.x + 0.5f && transform.position.x >= mMovePosition.x - 0.5f
         && transform.position.z <= mMovePosition.z + 0.5f && transform.position.z >= mMovePosition.z - 0.5f)
         {
-            PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint == null,transform.position);
+            PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint, mPreviousWaypoint, transform.position);
             if (aWayPoint == null)
             {
                 mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 10.0f;
                 WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
+                mCurrentWaypoint = null;
+                mPreviousWaypoint = null;
             }
             else
             {
                 mPreviousWaypoint = mCurrentWaypoint;
                 mCurrentWaypoint = aWayPoint;
+                mMovePosition = mCurrentWaypoint.transform.position;
             }
         }
 

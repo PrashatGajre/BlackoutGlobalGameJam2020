@@ -48,6 +48,10 @@ public class PathBlock : MonoBehaviour
 
     void Start()
     {
+        if(mPlayerWaypoints.Length == 0)
+        {
+            Debug.LogErrorFormat("No Waypoints Set for Block {0}", gameObject.name);
+        }
         for(int aI = 0; aI < mPlayerWaypoints.Length; aI ++)
         {
             mPlayerWaypoints[aI].mWaypointIx = aI;
