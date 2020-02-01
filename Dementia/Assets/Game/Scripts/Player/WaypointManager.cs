@@ -70,7 +70,33 @@ public class WaypointManager : MonoBehaviour
 
     public static void SetActivePathblock(PathBlock pBlock)
     {
+        if(mInstance.mActivePathBlock != null)
+        {
+            mInstance.mActivePathBlock.mTraversed = true;
+        }
         mInstance.mActivePathBlock = pBlock;
+    }
+
+    public static PlayerWaypoint GetNextWaypoint(bool pNoCurrent, Vector3 pRefPos)
+    {
+        
+        
+        return null;
+    }
+
+    public static void GetPlayerFinalPosition(ref Vector3 pFinalPosition)
+    {
+        if(mInstance.mActiveConnections.ContainsKey(mInstance.mActivePathBlock.GetInstanceID()))
+        {
+            foreach(PathBlock aBlock in mInstance.mActiveConnections[mInstance.mActivePathBlock.GetInstanceID()])
+            {
+                if(!aBlock.mTraversed)
+                {
+                    pFinalPosition = aBlock.mCurrentConnection.mSelfBlockSnapPoint.transform.position;
+                    return;
+                }
+            }
+        }
     }
 
 
