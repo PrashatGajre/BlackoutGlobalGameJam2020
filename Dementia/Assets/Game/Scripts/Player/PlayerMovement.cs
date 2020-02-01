@@ -24,6 +24,24 @@ public class PlayerMovement : MonoBehaviour
         mCurrentWaypoint = null;
     }
 
+    public void ResetWaypoint()
+    {
+        PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint, mPreviousWaypoint, transform.position);
+        if (aWayPoint == null)
+        {
+            mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 10.0f;
+            WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
+            mCurrentWaypoint = null;
+            mPreviousWaypoint = null;
+        }
+        else
+        {
+            mPreviousWaypoint = mCurrentWaypoint;
+            mCurrentWaypoint = aWayPoint;
+            mMovePosition = mCurrentWaypoint.transform.position;
+        }
+    }
+
     void Update()
     {
         if (!mIsMoving)
@@ -45,20 +63,7 @@ public class PlayerMovement : MonoBehaviour
         if (transform.position.x <= mMovePosition.x + 0.5f && transform.position.x >= mMovePosition.x - 0.5f
         && transform.position.z <= mMovePosition.z + 0.5f && transform.position.z >= mMovePosition.z - 0.5f)
         {
-            PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint, mPreviousWaypoint, transform.position);
-            if (aWayPoint == null)
-            {
-                mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 10.0f;
-                WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
-                mCurrentWaypoint = null;
-                mPreviousWaypoint = null;
-            }
-            else
-            {
-                mPreviousWaypoint = mCurrentWaypoint;
-                mCurrentWaypoint = aWayPoint;
-                mMovePosition = mCurrentWaypoint.transform.position;
-            }
+            ResetWaypoint();
         }
 
     }
