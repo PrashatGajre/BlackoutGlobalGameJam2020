@@ -5,6 +5,6 @@ using UnityEngine;
 public class PlayerWaypoint : MonoBehaviour
 {
     public bool mEnabled;
-
+    public int mWaypointIx;
 
 }

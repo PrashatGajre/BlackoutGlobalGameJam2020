@@ -46,6 +46,14 @@ public class PathBlock : MonoBehaviour
         mouseInput = gameObject.GetComponent<MouseInput>();
     }
 
+    void Start()
+    {
+        for(int aI = 0; aI < mPlayerWaypoints.Length; aI ++)
+        {
+            mPlayerWaypoints[aI].mWaypointIx = aI;
+        }
+    }
+
     public void MoveBlock(Vector3 pPosition)
     {
         if (pPosition != Vector3.zero)
