@@ -98,6 +98,7 @@ public class WaypointManager : MonoBehaviour
             if (aDist < aShortestDistance)
             {
                 aClosestIx = aI;
+                aShortestDistance = aDist;
             }
         }
         return aClosestIx;
@@ -131,8 +132,8 @@ public class WaypointManager : MonoBehaviour
             }
             if(pPreviousWaypoint == null)
             {
-                int aOneDirection = pCurrentWaypoint.mWaypointIx--;
-                int aSecond = pCurrentWaypoint.mWaypointIx++;
+                int aOneDirection = pCurrentWaypoint.mWaypointIx-1;
+                int aSecond = pCurrentWaypoint.mWaypointIx+1;
                 if(aOneDirection == -1 && aSecond < mInstance.mActivePathBlock.mPlayerWaypoints.Length)
                 {
                     return mInstance.mActivePathBlock.mPlayerWaypoints[aSecond];
