@@ -21,6 +21,9 @@ public class PathBlock : MonoBehaviour
     public Dictionary<int, Connection> mActiveClosestPoints = new Dictionary<int, Connection>();
     public List<PlayerWaypoint> mPlayerWaypoints;
 
+    public Connection mCurrentConnection = new Connection(null,null);
+
+
     [Header("Debug")]
     public bool mTrySnapping;
 
@@ -67,10 +70,19 @@ public class PathBlock : MonoBehaviour
         {
             return;
         }
-
+        mCurrentConnection = aSelectedConnection;
         //debug only for now
         transform.position += (aSelectedConnection.mOtherBlockSnapPoint.transform.position - aSelectedConnection.mSelfBlockSnapPoint.transform.position);
 
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        PlayerMovement aPlayer = collision.collider.GetComponent<PlayerMovement>();
+        if(aPlayer != null)
+        {
+            WaypointManager.SetActivePathblock(this);
+        }
     }
 
 }
