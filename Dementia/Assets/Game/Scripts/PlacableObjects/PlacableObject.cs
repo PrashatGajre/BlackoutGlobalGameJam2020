@@ -6,5 +6,8 @@ public class PlacableObject : MonoBehaviour
 {
     public List<Transform> snapingPoints;
     public GameObject spPrefab;
+
+    public bool mUseEditor = false;
+
 }
 
