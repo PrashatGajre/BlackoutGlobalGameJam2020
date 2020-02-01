@@ -19,14 +19,19 @@ public class PathBlock : MonoBehaviour
     public bool mIsMoving = false;
     public bool mTraversed = false;
     public Dictionary<int, Connection> mActiveClosestPoints = new Dictionary<int, Connection>();
-
+    public List<PlayerWaypoint> mPlayerWaypoints;
 
     [Header("Debug")]
     public bool mTrySnapping;
 
     public void MoveBlock(Vector3 pPosition)
     {
+        mIsMoving = true;
+    }
 
+    public void RotateBlock(float pDelta)
+    {
+        mIsMoving = true;
     }
 
     void Update()
