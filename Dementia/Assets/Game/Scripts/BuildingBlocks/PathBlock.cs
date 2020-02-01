@@ -19,7 +19,7 @@ public class PathBlock : MonoBehaviour
     public bool mIsMoving = false;
     public bool mTraversed = false;
     public Dictionary<int, Connection> mActiveClosestPoints = new Dictionary<int, Connection>();
-    public List<PlayerWaypoint> mPlayerWaypoints;
+    public PlayerWaypoint[] mPlayerWaypoints;
 
     public Connection mCurrentConnection = new Connection(null,null);
     
