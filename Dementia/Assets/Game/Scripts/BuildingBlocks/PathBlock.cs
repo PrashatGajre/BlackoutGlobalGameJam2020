@@ -52,6 +52,7 @@ public class PathBlock : MonoBehaviour
         {
             mIsMoving = true;
             parent.position = new Vector3(pPosition.x, 0, pPosition.z);
+            parent.localRotation = rotation;
         }
     }
 
@@ -59,6 +60,7 @@ public class PathBlock : MonoBehaviour
     {
         mIsMoving = true;
         parent.Rotate(Vector3.up * rotationAngle);
+        rotation = parent.localRotation;
     }
 
     void Update()
