@@ -11,5 +11,29 @@ public class PlacableObject : MonoBehaviour
     public bool mUseSnapingEditor = false;
     public bool mUseWaypointsEditor = false;
 
+    private PathBlock mPathBlock;
+
+    private void Awake()
+    {
+        mPathBlock = GetComponent<PathBlock>();
+
+        if(mPathBlock == null)
+        {
+            return;
+        }
+
+        mPathBlock.mPlayerWaypoints = new PlayerWaypoint[wayPoints.Count];
+
+        for (int i = 0; i< wayPoints.Count; i++)
+        {
+            GameObject work = new GameObject();
+            work.transform.position = wayPoints[i] + transform.position;
+            work.transform.parent = this.transform;
+            work.AddComponent<PlayerWaypoint>();
+            mPathBlock.mPlayerWaypoints[i] = work.GetComponent<PlayerWaypoint>();
+        }
+        
+    }
+
 }
 
