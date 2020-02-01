@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint, mPreviousWaypoint, transform.position);
         if (aWayPoint == null)
         {
-            mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 10.0f;
+            mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 2.0f;
             WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
             mCurrentWaypoint = null;
             mPreviousWaypoint = null;
