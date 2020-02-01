@@ -9,36 +9,51 @@ public class PlacableObjectEditor : Editor
     private void OnSceneGUI()
     {
         PlacableObject po = (PlacableObject)target;
-        if(!po.mUseEditor)
+
+       
+        if (po.mUseSnapingEditor)
         {
-            return;
+            foreach (Transform sp in po.snapingPoints)
+            {
+                sp.position = Handles.DoPositionHandle(sp.position, sp.rotation);
+                sp.rotation = Handles.DoRotationHandle(sp.rotation, sp.position);
+            }
+
+            Handles.BeginGUI();
+            if (GUILayout.Button("new node"))
+            {
+                po.snapingPoints.Add(Instantiate(po.spPrefab, po.transform).transform);
+            }
+            Handles.EndGUI();
         }
 
-        foreach (Transform sp in po.snapingPoints)
+        if(po.mUseWaypointsEditor)
         {
-            sp.position = Handles.DoPositionHandle(sp.position, sp.rotation);
-            sp.rotation = Handles.DoRotationHandle(sp.rotation, sp.position);
-        }
+            for (int i = 0; i < po.wayPoints.Count; i++)
+            {
+                po.wayPoints[i] = Handles.DoPositionHandle(po.wayPoints[i] + po.transform.position, Quaternion.identity) - po.transform.position;
+            }
 
-        for(int i = 0; i < po.wayPoints.Count; i++)
-        {
-            po.wayPoints[i] = Handles.DoPositionHandle(po.wayPoints[i], Quaternion.identity);
-        }
+            Handles.color = Color.red;
 
-        Handles.color = Color.red;
-        Handles.DrawPolyLine(po.wayPoints.ToArray());
+            Vector3[] waypointsArray = po.wayPoints.ToArray();
 
-        Handles.BeginGUI();
-        if (GUILayout.Button("new node"))
-        {
-            po.snapingPoints.Add(Instantiate(po.spPrefab, po.transform).transform);
-        }
-        if (GUILayout.Button("new waypoint"))
-        {
-            po.snapingPoints.Add(Instantiate(po.spPrefab, po.transform).transform);
-        }
-        Handles.EndGUI();
+            for (int i = 0; i < waypointsArray.Length; i++)
+            {
+                waypointsArray[i] = waypointsArray[i] + po.transform.position;
+            }
 
+            Handles.DrawPolyLine(waypointsArray);
+
+            Handles.BeginGUI();
+            if (GUILayout.Button("new waypoint"))
+            {
+                po.snapingPoints.Add(Instantiate(po.spPrefab, po.transform).transform);
+            }
+            Handles.EndGUI();
+        }
+       
+        
 
     }
 }

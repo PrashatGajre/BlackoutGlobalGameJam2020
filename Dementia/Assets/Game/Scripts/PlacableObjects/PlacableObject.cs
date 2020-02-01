@@ -8,7 +8,8 @@ public class PlacableObject : MonoBehaviour
     public List<Vector3> wayPoints;
     public GameObject spPrefab;
 
-    public bool mUseEditor = false;
+    public bool mUseSnapingEditor = false;
+    public bool mUseWaypointsEditor = false;
 
 }
 
