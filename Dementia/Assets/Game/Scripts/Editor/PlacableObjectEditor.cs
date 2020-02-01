@@ -10,7 +10,6 @@ public class PlacableObjectEditor : Editor
     {
         PlacableObject po = (PlacableObject)target;
 
-       
         if (po.mUseSnapingEditor)
         {
             foreach (Transform sp in po.snapingPoints)
@@ -18,13 +17,6 @@ public class PlacableObjectEditor : Editor
                 sp.position = Handles.DoPositionHandle(sp.position, sp.rotation);
                 sp.rotation = Handles.DoRotationHandle(sp.rotation, sp.position);
             }
-
-            Handles.BeginGUI();
-            if (GUILayout.Button("new node"))
-            {
-                po.snapingPoints.Add(Instantiate(po.spPrefab, po.transform).transform);
-            }
-            Handles.EndGUI();
         }
 
         if(po.mUseWaypointsEditor)
@@ -44,16 +36,26 @@ public class PlacableObjectEditor : Editor
             }
 
             Handles.DrawPolyLine(waypointsArray);
+        }
 
-            Handles.BeginGUI();
-            if (GUILayout.Button("new waypoint"))
+        Handles.BeginGUI();
+        if (po.mUseSnapingEditor)
+        {
+            if (GUILayout.Button("new node"))
             {
                 po.snapingPoints.Add(Instantiate(po.spPrefab, po.transform).transform);
             }
-            Handles.EndGUI();
         }
-       
-        
+        if (po.mUseWaypointsEditor)
+        {
+            if (GUILayout.Button("new waypoint"))
+            {
+                po.wayPoints.Add(new Vector3(3, 0, 3));
+            }
+        }
+        Handles.EndGUI();
+
+
 
     }
 }
