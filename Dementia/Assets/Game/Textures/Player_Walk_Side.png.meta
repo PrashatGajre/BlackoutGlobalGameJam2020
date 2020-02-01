@@ -251,6 +251,255 @@ TextureImporter:
   - first:
       213: -2537847753001841873
     second: LightWalk_Final_82
+  - first:
+      213: 2330799481424053902
+    second: Player_Walk_Side_0
+  - first:
+      213: -7037711968395525764
+    second: Player_Walk_Side_1
+  - first:
+      213: -3176912162868937698
+    second: Player_Walk_Side_2
+  - first:
+      213: -3077620626834860944
+    second: Player_Walk_Side_3
+  - first:
+      213: -6428211430484910336
+    second: Player_Walk_Side_4
+  - first:
+      213: -4787081268143577376
+    second: Player_Walk_Side_5
+  - first:
+      213: 2178023786814558409
+    second: Player_Walk_Side_6
+  - first:
+      213: -5777539039025375888
+    second: Player_Walk_Side_7
+  - first:
+      213: -8436161159257446200
+    second: Player_Walk_Side_8
+  - first:
+      213: 1839397653324123721
+    second: Player_Walk_Side_9
+  - first:
+      213: -536024456189199868
+    second: Player_Walk_Side_10
+  - first:
+      213: -492411231066458747
+    second: Player_Walk_Side_11
+  - first:
+      213: 7807813102677201605
+    second: Player_Walk_Side_12
+  - first:
+      213: 855507190757125267
+    second: Player_Walk_Side_13
+  - first:
+      213: -8610338181239826485
+    second: Player_Walk_Side_14
+  - first:
+      213: 1729558714851431143
+    second: Player_Walk_Side_15
+  - first:
+      213: 2457553822620210717
+    second: Player_Walk_Side_16
+  - first:
+      213: -2664186369293736165
+    second: Player_Walk_Side_17
+  - first:
+      213: -4210480048106326860
+    second: Player_Walk_Side_18
+  - first:
+      213: -7056655983442942487
+    second: Player_Walk_Side_19
+  - first:
+      213: 5284335949942697065
+    second: Player_Walk_Side_20
+  - first:
+      213: -481043779418173965
+    second: Player_Walk_Side_21
+  - first:
+      213: 1872164753982654563
+    second: Player_Walk_Side_22
+  - first:
+      213: -3045129314417157604
+    second: Player_Walk_Side_23
+  - first:
+      213: 1991523726202807238
+    second: Player_Walk_Side_24
+  - first:
+      213: -5426402177024469797
+    second: Player_Walk_Side_25
+  - first:
+      213: 1001604798248561080
+    second: Player_Walk_Side_26
+  - first:
+      213: 5695384110915849621
+    second: Player_Walk_Side_27
+  - first:
+      213: -7810726220913192185
+    second: Player_Walk_Side_28
+  - first:
+      213: -5696435407137659090
+    second: Player_Walk_Side_29
+  - first:
+      213: 5450439417528179740
+    second: Player_Walk_Side_30
+  - first:
+      213: -619659790222959808
+    second: Player_Walk_Side_31
+  - first:
+      213: 7367476073672161474
+    second: Player_Walk_Side_32
+  - first:
+      213: -7564199004304184091
+    second: Player_Walk_Side_33
+  - first:
+      213: -7447475077311513246
+    second: Player_Walk_Side_34
+  - first:
+      213: 6905875108495740214
+    second: Player_Walk_Side_35
+  - first:
+      213: -6045901502479127187
+    second: Player_Walk_Side_36
+  - first:
+      213: 1926845812713362980
+    second: Player_Walk_Side_37
+  - first:
+      213: -3636708998267826764
+    second: Player_Walk_Side_38
+  - first:
+      213: -3871918408006313488
+    second: Player_Walk_Side_39
+  - first:
+      213: 8206150184966540571
+    second: Player_Walk_Side_40
+  - first:
+      213: 8790788081265294791
+    second: Player_Walk_Side_41
+  - first:
+      213: -2254791224318903464
+    second: Player_Walk_Side_42
+  - first:
+      213: 9180925292054300277
+    second: Player_Walk_Side_43
+  - first:
+      213: -7278949166943426515
+    second: Player_Walk_Side_44
+  - first:
+      213: -5132589328841054115
+    second: Player_Walk_Side_45
+  - first:
+      213: -6894757664079041542
+    second: Player_Walk_Side_46
+  - first:
+      213: -1342077883492999380
+    second: Player_Walk_Side_47
+  - first:
+      213: -7408004147467740015
+    second: Player_Walk_Side_48
+  - first:
+      213: -6407077713175399945
+    second: Player_Walk_Side_49
+  - first:
+      213: 5411949282206049762
+    second: Player_Walk_Side_50
+  - first:
+      213: 2371863446004233466
+    second: Player_Walk_Side_51
+  - first:
+      213: 7322156301880451559
+    second: Player_Walk_Side_52
+  - first:
+      213: 1008751662347777964
+    second: Player_Walk_Side_53
+  - first:
+      213: -3584514493110509860
+    second: Player_Walk_Side_54
+  - first:
+      213: 2779234727847727435
+    second: Player_Walk_Side_55
+  - first:
+      213: 4776301120246683170
+    second: Player_Walk_Side_56
+  - first:
+      213: 2543393314023344211
+    second: Player_Walk_Side_57
+  - first:
+      213: -912109773742835450
+    second: Player_Walk_Side_58
+  - first:
+      213: -9178232086060921600
+    second: Player_Walk_Side_59
+  - first:
+      213: -7369813729806733776
+    second: Player_Walk_Side_60
+  - first:
+      213: 6444062311739425200
+    second: Player_Walk_Side_61
+  - first:
+      213: 149450814712665111
+    second: Player_Walk_Side_62
+  - first:
+      213: -3433835833713485669
+    second: Player_Walk_Side_63
+  - first:
+      213: -8700556507571716569
+    second: Player_Walk_Side_64
+  - first:
+      213: 1039313574361333560
+    second: Player_Walk_Side_65
+  - first:
+      213: 4780527635082516965
+    second: Player_Walk_Side_66
+  - first:
+      213: 5988975693871557174
+    second: Player_Walk_Side_67
+  - first:
+      213: 7529269731105208429
+    second: Player_Walk_Side_68
+  - first:
+      213: 5261580652379044135
+    second: Player_Walk_Side_69
+  - first:
+      213: -1151302117315948537
+    second: Player_Walk_Side_70
+  - first:
+      213: 4719786220825131187
+    second: Player_Walk_Side_71
+  - first:
+      213: -3010291269510779763
+    second: Player_Walk_Side_72
+  - first:
+      213: -6062983192120619044
+    second: Player_Walk_Side_73
+  - first:
+      213: 8041208660571232600
+    second: Player_Walk_Side_74
+  - first:
+      213: 2628131865286894613
+    second: Player_Walk_Side_75
+  - first:
+      213: 7587552238376846451
+    second: Player_Walk_Side_76
+  - first:
+      213: 275486216558883805
+    second: Player_Walk_Side_77
+  - first:
+      213: -2892310702149524534
+    second: Player_Walk_Side_78
+  - first:
+      213: 5923213944918351025
+    second: Player_Walk_Side_79
+  - first:
+      213: -4345024786417804292
+    second: Player_Walk_Side_80
+  - first:
+      213: -5897065045065807425
+    second: Player_Walk_Side_81
+  - first:
+      213: 4367453493920927081
+    second: Player_Walk_Side_82
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -335,7 +584,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LightWalk_Final_0
+      name: Player_Walk_Side_0
       rect:
         serializedVersion: 2
         x: 154
@@ -343,20 +592,20 @@ TextureImporter:
         width: 776
         height: 2621
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2ccf498c86146a5ad7984a85353752
-      internalID: -952320161792714037
+      spriteID: 5ff8684fd39cc0a4f84c1c07b05af4b1
+      internalID: 2330799481424053902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_1
+      name: Player_Walk_Side_1
       rect:
         serializedVersion: 2
         x: 1135
@@ -364,20 +613,20 @@ TextureImporter:
         width: 22
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d7c5e253d30546a3a69a3220552e8ec
-      internalID: -6936037003580041425
+      spriteID: 015144b09218c084a8bd8d95a669c188
+      internalID: -7037711968395525764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_2
+      name: Player_Walk_Side_2
       rect:
         serializedVersion: 2
         x: 1221
@@ -385,41 +634,41 @@ TextureImporter:
         width: 777
         height: 2650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e0d62c6702b24fe9a8dcf6ee0bb3765
-      internalID: -5392231628634011066
+      spriteID: 82ce07de42a404244a0f13c8394a3d41
+      internalID: -3176912162868937698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_3
+      name: Player_Walk_Side_3
       rect:
         serializedVersion: 2
         x: 2310
-        y: 36
+        y: 46
         width: 776
         height: 2629
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f6a3feefc98a489f808c44b74cbdfc7
-      internalID: -6595843404888417200
+      spriteID: a8f3a9dae0eeddd42aad71705ecc4966
+      internalID: -3077620626834860944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_4
+      name: Player_Walk_Side_4
       rect:
         serializedVersion: 2
         x: 3390
@@ -427,20 +676,20 @@ TextureImporter:
         width: 776
         height: 2650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d79684752d77470cb1656b7d407cc69
-      internalID: -8277008871545045176
+      spriteID: 1b0b5c54678f48e44aca60827be8c3c0
+      internalID: -6428211430484910336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_5
+      name: Player_Walk_Side_5
       rect:
         serializedVersion: 2
         x: 4466
@@ -448,20 +697,20 @@ TextureImporter:
         width: 776
         height: 2667
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5db9fa70dc8af49f3a528b842169df40
-      internalID: -6680008755313536026
+      spriteID: 4891e753250dd4a47a9157e69bd39abf
+      internalID: -4787081268143577376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_6
+      name: Player_Walk_Side_6
       rect:
         serializedVersion: 2
         x: 5533
@@ -469,20 +718,20 @@ TextureImporter:
         width: 776
         height: 2680
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4318b30b4bebe432f9505e63d74fc92b
-      internalID: 6038762661343132499
+      spriteID: e1709b682b144cb40a28c7c7050b87ef
+      internalID: 2178023786814558409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_7
+      name: Player_Walk_Side_7
       rect:
         serializedVersion: 2
         x: 6617
@@ -490,20 +739,20 @@ TextureImporter:
         width: 776
         height: 2624
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e68fa94106784a4598f36be6364eb0a
-      internalID: 6593724541741675962
+      spriteID: 67d1736559c027f4ea63f6e5b80961e8
+      internalID: -5777539039025375888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_8
+      name: Player_Walk_Side_8
       rect:
         serializedVersion: 2
         x: 7697
@@ -511,20 +760,20 @@ TextureImporter:
         width: 776
         height: 2629
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 818a6fb4149f44779a389fadf2dda54a
-      internalID: -7687033218870347231
+      spriteID: da52ba97f28302342aafd6d9abf3ae1a
+      internalID: -8436161159257446200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_9
+      name: Player_Walk_Side_9
       rect:
         serializedVersion: 2
         x: 2010
@@ -532,20 +781,20 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7e260f548ea94fd49ad09db333d2d97
-      internalID: -4782721940444110137
+      spriteID: 68e9c4715e296b742a199d0bea1f3f2b
+      internalID: 1839397653324123721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_10
+      name: Player_Walk_Side_10
       rect:
         serializedVersion: 2
         x: 3249
@@ -553,20 +802,20 @@ TextureImporter:
         width: 27
         height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da274f242e63d4a71ac559c61b1ef0f3
-      internalID: -1092285490844147973
+      spriteID: cf0ecf5e74583a04887360dead8f24b3
+      internalID: -536024456189199868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_11
+      name: Player_Walk_Side_11
       rect:
         serializedVersion: 2
         x: 4336
@@ -574,20 +823,20 @@ TextureImporter:
         width: 27
         height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16a83d1581b684edfbe8c45631cdc3a5
-      internalID: -3586436609323816229
+      spriteID: e35809fa7e8fdfb429d3a330188d34cd
+      internalID: -492411231066458747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_12
+      name: Player_Walk_Side_12
       rect:
         serializedVersion: 2
         x: 2235
@@ -595,20 +844,20 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4741b3f6a70704901ad8b26312f1b5cb
-      internalID: -972291472576240766
+      spriteID: 2df54124b006eca41aa227bbac7a2ee8
+      internalID: 7807813102677201605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_13
+      name: Player_Walk_Side_13
       rect:
         serializedVersion: 2
         x: 3311
@@ -616,20 +865,20 @@ TextureImporter:
         width: 9
         height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abc4bde9c2d854ba5aa6d1a8376b5425
-      internalID: 7130612001520657183
+      spriteID: 93a90135450552046a49938959d1de62
+      internalID: 855507190757125267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_14
+      name: Player_Walk_Side_14
       rect:
         serializedVersion: 2
         x: 4388
@@ -637,20 +886,20 @@ TextureImporter:
         width: 9
         height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 187c79132d18d451797ee2288dbb3f14
-      internalID: -7219785754639152840
+      spriteID: 085360505bcd2e8428ec6c41a2536e7f
+      internalID: -8610338181239826485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_15
+      name: Player_Walk_Side_15
       rect:
         serializedVersion: 2
         x: 5455
@@ -658,20 +907,20 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c49960224cdd4d92ade2a8d844fedcf
-      internalID: 3933383146183091222
+      spriteID: f362830f7ef55de4e8c5321bf41bdeda
+      internalID: 1729558714851431143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_16
+      name: Player_Walk_Side_16
       rect:
         serializedVersion: 2
         x: 6539
@@ -679,20 +928,20 @@ TextureImporter:
         width: 10
         height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e099770ee0034b26972e3a3e1f0dad8
-      internalID: 1331486181880167018
+      spriteID: af00d935ff2f4c04aac64aa8026d9f2f
+      internalID: 2457553822620210717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_17
+      name: Player_Walk_Side_17
       rect:
         serializedVersion: 2
         x: 7618
@@ -700,20 +949,20 @@ TextureImporter:
         width: 9
         height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ca979bac7a31409ab9c755317bd60d6
-      internalID: 1907977104574791850
+      spriteID: def5a87975a314d4388adb2ed5d624b9
+      internalID: -2664186369293736165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_18
+      name: Player_Walk_Side_18
       rect:
         serializedVersion: 2
         x: 1144
@@ -721,20 +970,20 @@ TextureImporter:
         width: 7
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0922f475de6d742e38602ad3c9249312
-      internalID: 8539638946721208507
+      spriteID: 4ee726febd107de488523b8f36dbd9e9
+      internalID: -4210480048106326860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_19
+      name: Player_Walk_Side_19
       rect:
         serializedVersion: 2
         x: 75
@@ -742,20 +991,20 @@ TextureImporter:
         width: 9
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c4741d72d8a4c93860a4ff8be51715
-      internalID: 5382043634306487888
+      spriteID: 77c2f47a3b1f3b245b88832ac3c62c25
+      internalID: -7056655983442942487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_20
+      name: Player_Walk_Side_20
       rect:
         serializedVersion: 2
         x: 935
@@ -763,20 +1012,20 @@ TextureImporter:
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d706fb5e41b1a497eb0d6f8a2eb4ab20
-      internalID: 3356909362636251031
+      spriteID: 47d7ea436d10a594d972b8ce738f12fe
+      internalID: 5284335949942697065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_21
+      name: Player_Walk_Side_21
       rect:
         serializedVersion: 2
         x: 6478
@@ -784,20 +1033,20 @@ TextureImporter:
         width: 21
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be141454a599346f981c02a98aeaa5bb
-      internalID: 3184840270403361148
+      spriteID: f1dccade20b25e749823c7316c7c52db
+      internalID: -481043779418173965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_22
+      name: Player_Walk_Side_22
       rect:
         serializedVersion: 2
         x: 7614
@@ -805,20 +1054,20 @@ TextureImporter:
         width: 24
         height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 694be9e6e361f4a038d4551775585f47
-      internalID: -8374621835885442288
+      spriteID: d78fe166d64eb2f479f6c393376d9b41
+      internalID: 1872164753982654563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_23
+      name: Player_Walk_Side_23
       rect:
         serializedVersion: 2
         x: 1045
@@ -826,20 +1075,20 @@ TextureImporter:
         width: 15
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06df4c7fddb1e4b62be04cfd3bec2057
-      internalID: 572235735009520858
+      spriteID: cd9f9fae72efcee4a888070c7d722f46
+      internalID: -3045129314417157604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_24
+      name: Player_Walk_Side_24
       rect:
         serializedVersion: 2
         x: 2137
@@ -847,20 +1096,20 @@ TextureImporter:
         width: 12
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51b5e0ce680f4e8db870b4803bc3b91
-      internalID: -7969647722617823695
+      spriteID: 98d3ccf39b82e5145a42e39e5c5a92d5
+      internalID: 1991523726202807238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_25
+      name: Player_Walk_Side_25
       rect:
         serializedVersion: 2
         x: 3213
@@ -868,20 +1117,20 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9dea2fab26664c49abcecea10e4f513
-      internalID: -5437082245756184257
+      spriteID: 5ec249c0e7c3f3d48a0b9a8e4da16e28
+      internalID: -5426402177024469797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_26
+      name: Player_Walk_Side_26
       rect:
         serializedVersion: 2
         x: 4293
@@ -889,20 +1138,20 @@ TextureImporter:
         width: 11
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f625d9802878b49bcad920ed21bfe1e2
-      internalID: 2490225459876550650
+      spriteID: 3fa38222a5199bf459907e215909dcf7
+      internalID: 1001604798248561080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_27
+      name: Player_Walk_Side_27
       rect:
         serializedVersion: 2
         x: 5358
@@ -910,20 +1159,20 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 168b3d760f3db468f8c5c5c5ed460486
-      internalID: 8109164316874821591
+      spriteID: 45a02e01aaa92cb4cb27ca2ade033acb
+      internalID: 5695384110915849621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_28
+      name: Player_Walk_Side_28
       rect:
         serializedVersion: 2
         x: 6444
@@ -931,20 +1180,20 @@ TextureImporter:
         width: 12
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 402bc80c1600948d293a05cac1bfcc35
-      internalID: 138595671761585028
+      spriteID: 708588bd4456e024e81918abf336024f
+      internalID: -7810726220913192185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_29
+      name: Player_Walk_Side_29
       rect:
         serializedVersion: 2
         x: 7520
@@ -952,20 +1201,20 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f7270d1b73c045ad88795e8343d670f
-      internalID: -574803331732381972
+      spriteID: b7ecd91cb621c8847ac69b3d0e337cb5
+      internalID: -5696435407137659090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_30
+      name: Player_Walk_Side_30
       rect:
         serializedVersion: 2
         x: 1181
@@ -973,20 +1222,20 @@ TextureImporter:
         width: 38
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b469400f42af473b82c582dfe871205
-      internalID: -1978941742657392865
+      spriteID: 9c7256744f2eeeb4bb498c2ba0466c37
+      internalID: 5450439417528179740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_31
+      name: Player_Walk_Side_31
       rect:
         serializedVersion: 2
         x: 2249
@@ -994,20 +1243,20 @@ TextureImporter:
         width: 38
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66608526ececc421bacd335307540102
-      internalID: -8033038072285092065
+      spriteID: 7b7be86dd46f86f47ad9318cb6548cb2
+      internalID: -619659790222959808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_32
+      name: Player_Walk_Side_32
       rect:
         serializedVersion: 2
         x: 3340
@@ -1015,20 +1264,20 @@ TextureImporter:
         width: 36
         height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8258ee1d7ea5541deb7ad66da85f8e51
-      internalID: 8805752778639236243
+      spriteID: 074751c60640c714382d320acfe54119
+      internalID: 7367476073672161474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_33
+      name: Player_Walk_Side_33
       rect:
         serializedVersion: 2
         x: 4417
@@ -1036,20 +1285,20 @@ TextureImporter:
         width: 38
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a96cdd4bcde54aa488a6801523118c8
-      internalID: -4295265829938975918
+      spriteID: 0af69f468ed6b3547ab60eacee718492
+      internalID: -7564199004304184091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_34
+      name: Player_Walk_Side_34
       rect:
         serializedVersion: 2
         x: 5493
@@ -1057,20 +1306,20 @@ TextureImporter:
         width: 38
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1783520b9a62542a2ad359ca4a6a3365
-      internalID: 7708997412178839163
+      spriteID: 611a3a6465f51a84e81be0c55dd72cdd
+      internalID: -7447475077311513246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_35
+      name: Player_Walk_Side_35
       rect:
         serializedVersion: 2
         x: 6560
@@ -1078,20 +1327,20 @@ TextureImporter:
         width: 38
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9eebea5d43a749eaade49e81faf6fb8
-      internalID: 4901211068856313775
+      spriteID: 5ef17ef4640bd3e4aa98dda930705ab0
+      internalID: 6905875108495740214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_36
+      name: Player_Walk_Side_36
       rect:
         serializedVersion: 2
         x: 7644
@@ -1099,20 +1348,20 @@ TextureImporter:
         width: 39
         height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 266b57106bd3f47d99b898c431ad5dca
-      internalID: -2021177586491505582
+      spriteID: 810a93db31385e04da80e8f3d4d57ea9
+      internalID: -6045901502479127187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_37
+      name: Player_Walk_Side_37
       rect:
         serializedVersion: 2
         x: 118
@@ -1120,20 +1369,20 @@ TextureImporter:
         width: 27
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4009255710dc446ca392ff5f180d612
-      internalID: -1284456347206424893
+      spriteID: 84e1d34f2e104c8488879168e906b0de
+      internalID: 1926845812713362980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_38
+      name: Player_Walk_Side_38
       rect:
         serializedVersion: 2
         x: 1185
@@ -1141,20 +1390,20 @@ TextureImporter:
         width: 27
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97edf80619459436a89dea702b88ecf8
-      internalID: -3666821873534203338
+      spriteID: 0055824f053577a48adfde54cca285b8
+      internalID: -3636708998267826764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_39
+      name: Player_Walk_Side_39
       rect:
         serializedVersion: 2
         x: 2274
@@ -1162,20 +1411,20 @@ TextureImporter:
         width: 27
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cfe64eff186b45d8bcf5d80c67a3849
-      internalID: 1567338735307839087
+      spriteID: 5522db1593bf6b344af73e50aa4c2d9c
+      internalID: -3871918408006313488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_40
+      name: Player_Walk_Side_40
       rect:
         serializedVersion: 2
         x: 3354
@@ -1183,20 +1432,20 @@ TextureImporter:
         width: 27
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f177884a8465c47f68e3c7aa9993e33c
-      internalID: -3577233461450939794
+      spriteID: 4ae4ef8ff7890c34bbcf1630786e5968
+      internalID: 8206150184966540571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_41
+      name: Player_Walk_Side_41
       rect:
         serializedVersion: 2
         x: 4430
@@ -1204,20 +1453,20 @@ TextureImporter:
         width: 27
         height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d71e47a0ab894833a6f5b777d0d79de
-      internalID: 2916724382479800212
+      spriteID: 385df490bee9fc4448d42ad987f55263
+      internalID: 8790788081265294791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_42
+      name: Player_Walk_Side_42
       rect:
         serializedVersion: 2
         x: 5497
@@ -1225,20 +1474,20 @@ TextureImporter:
         width: 27
         height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14bd202d3f8f64e6ea736f059241cb43
-      internalID: 1932164202936794629
+      spriteID: e847502495e2adc4da01032ce903f94e
+      internalID: -2254791224318903464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_43
+      name: Player_Walk_Side_43
       rect:
         serializedVersion: 2
         x: 6584
@@ -1246,20 +1495,20 @@ TextureImporter:
         width: 25
         height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5163653e34eb648d0a91bde7335a50e4
-      internalID: -7816509017058777568
+      spriteID: 13ab9a4d61473de4ca2f08917ed8a180
+      internalID: 9180925292054300277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_44
+      name: Player_Walk_Side_44
       rect:
         serializedVersion: 2
         x: 7657
@@ -1267,20 +1516,20 @@ TextureImporter:
         width: 31
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99744ee4c1bd242ea8d691275a944623
-      internalID: 2057774456916704422
+      spriteID: bd2db404d52e7ea4f8bb44ae4586cdc2
+      internalID: -7278949166943426515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_45
+      name: Player_Walk_Side_45
       rect:
         serializedVersion: 2
         x: 6581
@@ -1288,20 +1537,20 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9672bb77a225846618e3e6c2188dc5d5
-      internalID: 4642317707822578485
+      spriteID: 4d9aa6a322cc20045bcd56c2485cf313
+      internalID: -5132589328841054115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_46
+      name: Player_Walk_Side_46
       rect:
         serializedVersion: 2
         x: 112
@@ -1309,20 +1558,20 @@ TextureImporter:
         width: 24
         height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8697b168b751415e8d1716d64b9fe91
-      internalID: 1474603363129212241
+      spriteID: 09005a94805a8774ebb1fb2cff20be11
+      internalID: -6894757664079041542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_47
+      name: Player_Walk_Side_47
       rect:
         serializedVersion: 2
         x: 1180
@@ -1330,20 +1579,20 @@ TextureImporter:
         width: 23
         height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73338e9a634bf4d59b35f19142f105a4
-      internalID: -3348625690805031202
+      spriteID: 913e89e901e31874c97d830c8aa1f3ff
+      internalID: -1342077883492999380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_48
+      name: Player_Walk_Side_48
       rect:
         serializedVersion: 2
         x: 2270
@@ -1351,20 +1600,20 @@ TextureImporter:
         width: 25
         height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3bcca3aa24af4ec2bc2b59184d14f4c
-      internalID: -296503812473717918
+      spriteID: d9fef34196537134ebe3aabf115062f6
+      internalID: -7408004147467740015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_49
+      name: Player_Walk_Side_49
       rect:
         serializedVersion: 2
         x: 3348
@@ -1372,20 +1621,20 @@ TextureImporter:
         width: 24
         height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe689285ca17f4830a3c05c71d937384
-      internalID: -7416857737352018982
+      spriteID: a33a781301521474286c43834ee66e42
+      internalID: -6407077713175399945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_50
+      name: Player_Walk_Side_50
       rect:
         serializedVersion: 2
         x: 4424
@@ -1393,20 +1642,20 @@ TextureImporter:
         width: 27
         height: 61
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 692f4424d74614ac393b3ccdfe1eea22
-      internalID: -9222736244246120485
+      spriteID: d80e37d9d92cb6d4eb0ed075f9b67a40
+      internalID: 5411949282206049762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_51
+      name: Player_Walk_Side_51
       rect:
         serializedVersion: 2
         x: 5492
@@ -1414,20 +1663,20 @@ TextureImporter:
         width: 23
         height: 61
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ecd98075e93f4674a3512b951f218cf
-      internalID: 4828008899189374151
+      spriteID: ad5fae00442b44f499a94ab46706b95f
+      internalID: 2371863446004233466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_52
+      name: Player_Walk_Side_52
       rect:
         serializedVersion: 2
         x: 6577
@@ -1435,20 +1684,20 @@ TextureImporter:
         width: 25
         height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e948d6a4c14748b293fc50e1e9a790f
-      internalID: -7618393351552528035
+      spriteID: c960cc7cc35ee2144a32646d67de0363
+      internalID: 7322156301880451559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_53
+      name: Player_Walk_Side_53
       rect:
         serializedVersion: 2
         x: 7655
@@ -1456,20 +1705,20 @@ TextureImporter:
         width: 24
         height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04bb14054a6ed4776b3682864a14cdce
-      internalID: -7924181336199847305
+      spriteID: 129093b57ac6d8d4883204f1bc6a73f0
+      internalID: 1008751662347777964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_54
+      name: Player_Walk_Side_54
       rect:
         serializedVersion: 2
         x: 4447
@@ -1477,20 +1726,20 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c8bb09bdb4c146e3b446ceb30eb4e98
-      internalID: -7464580455209094766
+      spriteID: 47d123ef4dbd9d041a10b0fc2288d1c4
+      internalID: -3584514493110509860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_55
+      name: Player_Walk_Side_55
       rect:
         serializedVersion: 2
         x: 5514
@@ -1498,20 +1747,20 @@ TextureImporter:
         width: 4
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fd21d93a5a464884a91f50cdd3b105b
-      internalID: -886608684759750203
+      spriteID: 01893b76ad3acab4f9052e22655e11d3
+      internalID: 2779234727847727435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_56
+      name: Player_Walk_Side_56
       rect:
         serializedVersion: 2
         x: 2291
@@ -1519,20 +1768,20 @@ TextureImporter:
         width: 4
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e11384cab279149e8b0821970013ac13
-      internalID: 4987600961478109048
+      spriteID: 3de4d9b3175427241a6fac9f6988088f
+      internalID: 4776301120246683170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_57
+      name: Player_Walk_Side_57
       rect:
         serializedVersion: 2
         x: 3371
@@ -1540,20 +1789,20 @@ TextureImporter:
         width: 4
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8878bf25d9dd4d5591071151b3805d9
-      internalID: -6623427292958102249
+      spriteID: 8a6af7d8a99e43a4da4d1cc526571d45
+      internalID: 2543393314023344211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_58
+      name: Player_Walk_Side_58
       rect:
         serializedVersion: 2
         x: 6598
@@ -1561,20 +1810,20 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33267cc2962824ab585fe6c62848f7ac
-      internalID: 2426813454683166433
+      spriteID: 11cd11a26aefd964c997c5c04e44797b
+      internalID: -912109773742835450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_59
+      name: Player_Walk_Side_59
       rect:
         serializedVersion: 2
         x: 7678
@@ -1582,20 +1831,20 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a90b1d01b764451a9a3f6b27aa985f0
-      internalID: 6064939214366804635
+      spriteID: 9a7f6a38bfc81ca4e90a765fe94c2f21
+      internalID: -9178232086060921600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_60
+      name: Player_Walk_Side_60
       rect:
         serializedVersion: 2
         x: 1202
@@ -1603,20 +1852,20 @@ TextureImporter:
         width: 5
         height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92e69934f9bc84e50b371a13b26ec202
-      internalID: 7654512120975603148
+      spriteID: a37bcde461df8994e8aa397cfccb20ef
+      internalID: -7369813729806733776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_61
+      name: Player_Walk_Side_61
       rect:
         serializedVersion: 2
         x: 4447
@@ -1624,20 +1873,20 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83e7448b4ef28459c9861d32eeb6360e
-      internalID: 2350282443363481239
+      spriteID: c120bafa3e1fec444b1ed26af12827c7
+      internalID: 6444062311739425200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_62
+      name: Player_Walk_Side_62
       rect:
         serializedVersion: 2
         x: 6598
@@ -1645,20 +1894,20 @@ TextureImporter:
         width: 4
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9d63be41c26c4301ade2ef3d5a78170
-      internalID: 704910816662085384
+      spriteID: 81779335a1b83384d9c3634e43dc6b0a
+      internalID: 149450814712665111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_63
+      name: Player_Walk_Side_63
       rect:
         serializedVersion: 2
         x: 7678
@@ -1666,20 +1915,20 @@ TextureImporter:
         width: 4
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82bfbd52b73784c16bb7c10cb67aa803
-      internalID: -438320781828747283
+      spriteID: 49ad584184fecb847b34613ee8f9f148
+      internalID: -3433835833713485669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_64
+      name: Player_Walk_Side_64
       rect:
         serializedVersion: 2
         x: 135
@@ -1687,20 +1936,20 @@ TextureImporter:
         width: 4
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f9c3d8069a0a45da992da47f62100a3
-      internalID: -6741162430812043659
+      spriteID: 485402edd1af51e4a91928d55e4e3129
+      internalID: -8700556507571716569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_65
+      name: Player_Walk_Side_65
       rect:
         serializedVersion: 2
         x: 135
@@ -1708,20 +1957,20 @@ TextureImporter:
         width: 4
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05e945523147c4e299b192667aea7b28
-      internalID: 4301642712190698988
+      spriteID: ffcc1bef7f5b95d4fab2a5fd949c79aa
+      internalID: 1039313574361333560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_66
+      name: Player_Walk_Side_66
       rect:
         serializedVersion: 2
         x: 4417
@@ -1729,20 +1978,20 @@ TextureImporter:
         width: 8
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b609895ebc647ccb06aab2c0a62a34
-      internalID: -1122966230654824402
+      spriteID: e97a5dda819a66a4fac77713e2abe23b
+      internalID: 4780527635082516965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_67
+      name: Player_Walk_Side_67
       rect:
         serializedVersion: 2
         x: 5485
@@ -1750,20 +1999,20 @@ TextureImporter:
         width: 8
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d351490a40ce4480a67363dfcb4c0c3
-      internalID: 4156241473905420616
+      spriteID: d6be742429c89e94f8ae45b26368f835
+      internalID: 5988975693871557174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_68
+      name: Player_Walk_Side_68
       rect:
         serializedVersion: 2
         x: 2261
@@ -1771,20 +2020,20 @@ TextureImporter:
         width: 9
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d908d38c55244e0d901a7a2568b2118
-      internalID: 8515835196256364000
+      spriteID: 98c5826c0e603fe49a303a7febfb7dc0
+      internalID: 7529269731105208429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_69
+      name: Player_Walk_Side_69
       rect:
         serializedVersion: 2
         x: 3341
@@ -1792,20 +2041,20 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af48a3b0e12b94dceb5c58b774a07b1a
-      internalID: 157684885883220774
+      spriteID: 421b1494ed29a5c48a308609b6986b5f
+      internalID: 5261580652379044135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_70
+      name: Player_Walk_Side_70
       rect:
         serializedVersion: 2
         x: 6569
@@ -1813,20 +2062,20 @@ TextureImporter:
         width: 8
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3778c04aa29814deebcaeb3625a7293d
-      internalID: 2181747740063706808
+      spriteID: 627559dae42ac6547b6e1a9857a71408
+      internalID: -1151302117315948537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_71
+      name: Player_Walk_Side_71
       rect:
         serializedVersion: 2
         x: 7649
@@ -1834,20 +2083,20 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 671106cbcfa5d40b7ae13b6aea0ab7ae
-      internalID: 8505698743804491019
+      spriteID: cfed7cc26c1ba994787ad98ca920a896
+      internalID: 4719786220825131187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_72
+      name: Player_Walk_Side_72
       rect:
         serializedVersion: 2
         x: 1173
@@ -1855,20 +2104,20 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28e90deec3a144b8a8e5d810aa17e87e
-      internalID: -8405908643412511237
+      spriteID: c2e264edb82535b42b3353473cb043bd
+      internalID: -3010291269510779763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_73
+      name: Player_Walk_Side_73
       rect:
         serializedVersion: 2
         x: 105
@@ -1876,20 +2125,20 @@ TextureImporter:
         width: 5
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2892a26f684064974a17c83d90501d78
-      internalID: -4823607599375740195
+      spriteID: 44a8dd375d29aa249b44d3a0d9606cf1
+      internalID: -6062983192120619044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_74
+      name: Player_Walk_Side_74
       rect:
         serializedVersion: 2
         x: 139
@@ -1897,20 +2146,20 @@ TextureImporter:
         width: 21
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd649f55464e7490aa5ee9e7b7154fbb
-      internalID: 5474761918635342530
+      spriteID: 4953fcad6d712ed4fa53615627e81237
+      internalID: 8041208660571232600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_75
+      name: Player_Walk_Side_75
       rect:
         serializedVersion: 2
         x: 1207
@@ -1918,20 +2167,20 @@ TextureImporter:
         width: 22
         height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e0100750e6a340219d110930d05c3ae
-      internalID: -3316056377305216167
+      spriteID: 75b6e52f8297b444aafa8cceecd09848
+      internalID: 2628131865286894613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_76
+      name: Player_Walk_Side_76
       rect:
         serializedVersion: 2
         x: 2295
@@ -1939,20 +2188,20 @@ TextureImporter:
         width: 22
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5c8dfcbb44ac494d81265180661f34e
-      internalID: 157994635324958939
+      spriteID: 248f442030322cd4cbd73a05736db158
+      internalID: 7587552238376846451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_77
+      name: Player_Walk_Side_77
       rect:
         serializedVersion: 2
         x: 3375
@@ -1960,20 +2209,20 @@ TextureImporter:
         width: 21
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44fee08370da44a4b8522b405ba2bf1a
-      internalID: 8663897601063440554
+      spriteID: 1488b9f30e1bc91448dd18ff8973fc5f
+      internalID: 275486216558883805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_78
+      name: Player_Walk_Side_78
       rect:
         serializedVersion: 2
         x: 4451
@@ -1981,20 +2230,20 @@ TextureImporter:
         width: 22
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6163ef1e1863c47798bfb0e863ae972f
-      internalID: 6891884939264946581
+      spriteID: 065ab4c377651cc47bd5d271094149a4
+      internalID: -2892310702149524534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_79
+      name: Player_Walk_Side_79
       rect:
         serializedVersion: 2
         x: 5518
@@ -2002,20 +2251,20 @@ TextureImporter:
         width: 22
         height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e18a125240214d7ab1b52eb9b97d466
-      internalID: -1116334873281237476
+      spriteID: 7f18dd7b9c4966c4097bf3318e542992
+      internalID: 5923213944918351025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_80
+      name: Player_Walk_Side_80
       rect:
         serializedVersion: 2
         x: 6602
@@ -2023,20 +2272,20 @@ TextureImporter:
         width: 23
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2715fde7e87614c70a15607f8f731385
-      internalID: 1628733165597200922
+      spriteID: b5717f46860ae494ab3cc0773e645e0a
+      internalID: -4345024786417804292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_81
+      name: Player_Walk_Side_81
       rect:
         serializedVersion: 2
         x: 7682
@@ -2044,20 +2293,20 @@ TextureImporter:
         width: 21
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bddff0f71d644f2e877c38b5ac8c5bf
-      internalID: -2383329907700681407
+      spriteID: 3f4533c1fbb718c45a2f2cbc1ee1e25a
+      internalID: -5897065045065807425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightWalk_Final_82
+      name: Player_Walk_Side_82
       rect:
         serializedVersion: 2
         x: 6826
@@ -2065,14 +2314,14 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da31c8586a3f14bc79fd8443240d58dc
-      internalID: -2537847753001841873
+      spriteID: 14f944361a2fe6a4d94f3c45fd81459d
+      internalID: 4367453493920927081
       vertices: []
       indices: 
       edges: []
