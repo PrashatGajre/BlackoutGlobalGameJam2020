@@ -14,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     PlayerWaypoint mPreviousWaypoint;
     Vector3 mMovePosition;
 
+    [Header("Debug")]
+    public bool mDebug = false;
+
     void Start()
     {
         mMovePosition = transform.position;
@@ -35,6 +38,10 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         transform.position += (mMovePosition - transform.position) * Time.deltaTime * mMoveSpeed;
+        if(mDebug)
+        {
+            Debug.DrawRay(transform.position, (mMovePosition - transform.position), Color.red);
+        }
         if (transform.position.x <= mMovePosition.x + 0.5f && transform.position.x >= mMovePosition.x - 0.5f
         && transform.position.z <= mMovePosition.z + 0.5f && transform.position.z >= mMovePosition.z - 0.5f)
         {
