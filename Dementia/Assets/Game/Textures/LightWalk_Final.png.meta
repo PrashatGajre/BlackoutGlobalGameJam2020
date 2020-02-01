@@ -1,0 +1,2095 @@
+fileFormatVersion: 2
+guid: edaa2f39fc5e94c459e5fa18997db26b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -952320161792714037
+    second: LightWalk_Final_0
+  - first:
+      213: -6936037003580041425
+    second: LightWalk_Final_1
+  - first:
+      213: -5392231628634011066
+    second: LightWalk_Final_2
+  - first:
+      213: -6595843404888417200
+    second: LightWalk_Final_3
+  - first:
+      213: -8277008871545045176
+    second: LightWalk_Final_4
+  - first:
+      213: -6680008755313536026
+    second: LightWalk_Final_5
+  - first:
+      213: 6038762661343132499
+    second: LightWalk_Final_6
+  - first:
+      213: 6593724541741675962
+    second: LightWalk_Final_7
+  - first:
+      213: -7687033218870347231
+    second: LightWalk_Final_8
+  - first:
+      213: -4782721940444110137
+    second: LightWalk_Final_9
+  - first:
+      213: -1092285490844147973
+    second: LightWalk_Final_10
+  - first:
+      213: -3586436609323816229
+    second: LightWalk_Final_11
+  - first:
+      213: -972291472576240766
+    second: LightWalk_Final_12
+  - first:
+      213: 7130612001520657183
+    second: LightWalk_Final_13
+  - first:
+      213: -7219785754639152840
+    second: LightWalk_Final_14
+  - first:
+      213: 3933383146183091222
+    second: LightWalk_Final_15
+  - first:
+      213: 1331486181880167018
+    second: LightWalk_Final_16
+  - first:
+      213: 1907977104574791850
+    second: LightWalk_Final_17
+  - first:
+      213: 8539638946721208507
+    second: LightWalk_Final_18
+  - first:
+      213: 5382043634306487888
+    second: LightWalk_Final_19
+  - first:
+      213: 3356909362636251031
+    second: LightWalk_Final_20
+  - first:
+      213: 3184840270403361148
+    second: LightWalk_Final_21
+  - first:
+      213: -8374621835885442288
+    second: LightWalk_Final_22
+  - first:
+      213: 572235735009520858
+    second: LightWalk_Final_23
+  - first:
+      213: -7969647722617823695
+    second: LightWalk_Final_24
+  - first:
+      213: -5437082245756184257
+    second: LightWalk_Final_25
+  - first:
+      213: 2490225459876550650
+    second: LightWalk_Final_26
+  - first:
+      213: 8109164316874821591
+    second: LightWalk_Final_27
+  - first:
+      213: 138595671761585028
+    second: LightWalk_Final_28
+  - first:
+      213: -574803331732381972
+    second: LightWalk_Final_29
+  - first:
+      213: -1978941742657392865
+    second: LightWalk_Final_30
+  - first:
+      213: -8033038072285092065
+    second: LightWalk_Final_31
+  - first:
+      213: 8805752778639236243
+    second: LightWalk_Final_32
+  - first:
+      213: -4295265829938975918
+    second: LightWalk_Final_33
+  - first:
+      213: 7708997412178839163
+    second: LightWalk_Final_34
+  - first:
+      213: 4901211068856313775
+    second: LightWalk_Final_35
+  - first:
+      213: -2021177586491505582
+    second: LightWalk_Final_36
+  - first:
+      213: -1284456347206424893
+    second: LightWalk_Final_37
+  - first:
+      213: -3666821873534203338
+    second: LightWalk_Final_38
+  - first:
+      213: 1567338735307839087
+    second: LightWalk_Final_39
+  - first:
+      213: -3577233461450939794
+    second: LightWalk_Final_40
+  - first:
+      213: 2916724382479800212
+    second: LightWalk_Final_41
+  - first:
+      213: 1932164202936794629
+    second: LightWalk_Final_42
+  - first:
+      213: -7816509017058777568
+    second: LightWalk_Final_43
+  - first:
+      213: 2057774456916704422
+    second: LightWalk_Final_44
+  - first:
+      213: 4642317707822578485
+    second: LightWalk_Final_45
+  - first:
+      213: 1474603363129212241
+    second: LightWalk_Final_46
+  - first:
+      213: -3348625690805031202
+    second: LightWalk_Final_47
+  - first:
+      213: -296503812473717918
+    second: LightWalk_Final_48
+  - first:
+      213: -7416857737352018982
+    second: LightWalk_Final_49
+  - first:
+      213: -9222736244246120485
+    second: LightWalk_Final_50
+  - first:
+      213: 4828008899189374151
+    second: LightWalk_Final_51
+  - first:
+      213: -7618393351552528035
+    second: LightWalk_Final_52
+  - first:
+      213: -7924181336199847305
+    second: LightWalk_Final_53
+  - first:
+      213: -7464580455209094766
+    second: LightWalk_Final_54
+  - first:
+      213: -886608684759750203
+    second: LightWalk_Final_55
+  - first:
+      213: 4987600961478109048
+    second: LightWalk_Final_56
+  - first:
+      213: -6623427292958102249
+    second: LightWalk_Final_57
+  - first:
+      213: 2426813454683166433
+    second: LightWalk_Final_58
+  - first:
+      213: 6064939214366804635
+    second: LightWalk_Final_59
+  - first:
+      213: 7654512120975603148
+    second: LightWalk_Final_60
+  - first:
+      213: 2350282443363481239
+    second: LightWalk_Final_61
+  - first:
+      213: 704910816662085384
+    second: LightWalk_Final_62
+  - first:
+      213: -438320781828747283
+    second: LightWalk_Final_63
+  - first:
+      213: -6741162430812043659
+    second: LightWalk_Final_64
+  - first:
+      213: 4301642712190698988
+    second: LightWalk_Final_65
+  - first:
+      213: -1122966230654824402
+    second: LightWalk_Final_66
+  - first:
+      213: 4156241473905420616
+    second: LightWalk_Final_67
+  - first:
+      213: 8515835196256364000
+    second: LightWalk_Final_68
+  - first:
+      213: 157684885883220774
+    second: LightWalk_Final_69
+  - first:
+      213: 2181747740063706808
+    second: LightWalk_Final_70
+  - first:
+      213: 8505698743804491019
+    second: LightWalk_Final_71
+  - first:
+      213: -8405908643412511237
+    second: LightWalk_Final_72
+  - first:
+      213: -4823607599375740195
+    second: LightWalk_Final_73
+  - first:
+      213: 5474761918635342530
+    second: LightWalk_Final_74
+  - first:
+      213: -3316056377305216167
+    second: LightWalk_Final_75
+  - first:
+      213: 157994635324958939
+    second: LightWalk_Final_76
+  - first:
+      213: 8663897601063440554
+    second: LightWalk_Final_77
+  - first:
+      213: 6891884939264946581
+    second: LightWalk_Final_78
+  - first:
+      213: -1116334873281237476
+    second: LightWalk_Final_79
+  - first:
+      213: 1628733165597200922
+    second: LightWalk_Final_80
+  - first:
+      213: -2383329907700681407
+    second: LightWalk_Final_81
+  - first:
+      213: -2537847753001841873
+    second: LightWalk_Final_82
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightWalk_Final_0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 19
+        width: 776
+        height: 2621
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2ccf498c86146a5ad7984a85353752
+      internalID: -952320161792714037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_1
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 2561
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7c5e253d30546a3a69a3220552e8ec
+      internalID: -6936037003580041425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_2
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 6
+        width: 777
+        height: 2650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0d62c6702b24fe9a8dcf6ee0bb3765
+      internalID: -5392231628634011066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_3
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 36
+        width: 776
+        height: 2629
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6a3feefc98a489f808c44b74cbdfc7
+      internalID: -6595843404888417200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_4
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 15
+        width: 776
+        height: 2650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d79684752d77470cb1656b7d407cc69
+      internalID: -8277008871545045176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_5
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2
+        width: 776
+        height: 2667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db9fa70dc8af49f3a528b842169df40
+      internalID: -6680008755313536026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_6
+      rect:
+        serializedVersion: 2
+        x: 5533
+        y: 0
+        width: 776
+        height: 2680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4318b30b4bebe432f9505e63d74fc92b
+      internalID: 6038762661343132499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_7
+      rect:
+        serializedVersion: 2
+        x: 6617
+        y: 41
+        width: 776
+        height: 2624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e68fa94106784a4598f36be6364eb0a
+      internalID: 6593724541741675962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_8
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 36
+        width: 776
+        height: 2629
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818a6fb4149f44779a389fadf2dda54a
+      internalID: -7687033218870347231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_9
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 2505
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e260f548ea94fd49ad09db333d2d97
+      internalID: -4782721940444110137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_10
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 2501
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da274f242e63d4a71ac559c61b1ef0f3
+      internalID: -1092285490844147973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_11
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 2488
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a83d1581b684edfbe8c45631cdc3a5
+      internalID: -3586436609323816229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_12
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 2379
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4741b3f6a70704901ad8b26312f1b5cb
+      internalID: -972291472576240766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_13
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 2379
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc4bde9c2d854ba5aa6d1a8376b5425
+      internalID: 7130612001520657183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_14
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 2380
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187c79132d18d451797ee2288dbb3f14
+      internalID: -7219785754639152840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_15
+      rect:
+        serializedVersion: 2
+        x: 5455
+        y: 2380
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c49960224cdd4d92ade2a8d844fedcf
+      internalID: 3933383146183091222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_16
+      rect:
+        serializedVersion: 2
+        x: 6539
+        y: 2379
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e099770ee0034b26972e3a3e1f0dad8
+      internalID: 1331486181880167018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_17
+      rect:
+        serializedVersion: 2
+        x: 7618
+        y: 2379
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca979bac7a31409ab9c755317bd60d6
+      internalID: 1907977104574791850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_18
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2372
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0922f475de6d742e38602ad3c9249312
+      internalID: 8539638946721208507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2354
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c4741d72d8a4c93860a4ff8be51715
+      internalID: 5382043634306487888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_20
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1965
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d706fb5e41b1a497eb0d6f8a2eb4ab20
+      internalID: 3356909362636251031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_21
+      rect:
+        serializedVersion: 2
+        x: 6478
+        y: 1923
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be141454a599346f981c02a98aeaa5bb
+      internalID: 3184840270403361148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_22
+      rect:
+        serializedVersion: 2
+        x: 7614
+        y: 1901
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694be9e6e361f4a038d4551775585f47
+      internalID: -8374621835885442288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_23
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1585
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06df4c7fddb1e4b62be04cfd3bec2057
+      internalID: 572235735009520858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_24
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 1594
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51b5e0ce680f4e8db870b4803bc3b91
+      internalID: -7969647722617823695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_25
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1594
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dea2fab26664c49abcecea10e4f513
+      internalID: -5437082245756184257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_26
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 1598
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f625d9802878b49bcad920ed21bfe1e2
+      internalID: 2490225459876550650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_27
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 1598
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168b3d760f3db468f8c5c5c5ed460486
+      internalID: 8109164316874821591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_28
+      rect:
+        serializedVersion: 2
+        x: 6444
+        y: 1594
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402bc80c1600948d293a05cac1bfcc35
+      internalID: 138595671761585028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_29
+      rect:
+        serializedVersion: 2
+        x: 7520
+        y: 1594
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7270d1b73c045ad88795e8343d670f
+      internalID: -574803331732381972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_30
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1283
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b469400f42af473b82c582dfe871205
+      internalID: -1978941742657392865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_31
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1296
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66608526ececc421bacd335307540102
+      internalID: -8033038072285092065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_32
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 1307
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8258ee1d7ea5541deb7ad66da85f8e51
+      internalID: 8805752778639236243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_33
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 1304
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a96cdd4bcde54aa488a6801523118c8
+      internalID: -4295265829938975918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_34
+      rect:
+        serializedVersion: 2
+        x: 5493
+        y: 1308
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1783520b9a62542a2ad359ca4a6a3365
+      internalID: 7708997412178839163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_35
+      rect:
+        serializedVersion: 2
+        x: 6560
+        y: 1309
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eebea5d43a749eaade49e81faf6fb8
+      internalID: 4901211068856313775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_36
+      rect:
+        serializedVersion: 2
+        x: 7644
+        y: 1307
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266b57106bd3f47d99b898c431ad5dca
+      internalID: -2021177586491505582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_37
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1224
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4009255710dc446ca392ff5f180d612
+      internalID: -1284456347206424893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_38
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1241
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97edf80619459436a89dea702b88ecf8
+      internalID: -3666821873534203338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_39
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 1250
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfe64eff186b45d8bcf5d80c67a3849
+      internalID: 1567338735307839087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_40
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1250
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f177884a8465c47f68e3c7aa9993e33c
+      internalID: -3577233461450939794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_41
+      rect:
+        serializedVersion: 2
+        x: 4430
+        y: 1249
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d71e47a0ab894833a6f5b777d0d79de
+      internalID: 2916724382479800212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_42
+      rect:
+        serializedVersion: 2
+        x: 5497
+        y: 1249
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bd202d3f8f64e6ea736f059241cb43
+      internalID: 1932164202936794629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_43
+      rect:
+        serializedVersion: 2
+        x: 6584
+        y: 1253
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5163653e34eb648d0a91bde7335a50e4
+      internalID: -7816509017058777568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_44
+      rect:
+        serializedVersion: 2
+        x: 7657
+        y: 1249
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99744ee4c1bd242ea8d691275a944623
+      internalID: 2057774456916704422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_45
+      rect:
+        serializedVersion: 2
+        x: 6581
+        y: 1249
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9672bb77a225846618e3e6c2188dc5d5
+      internalID: 4642317707822578485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1123
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8697b168b751415e8d1716d64b9fe91
+      internalID: 1474603363129212241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_47
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1140
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73338e9a634bf4d59b35f19142f105a4
+      internalID: -3348625690805031202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_48
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 1148
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bcca3aa24af4ec2bc2b59184d14f4c
+      internalID: -296503812473717918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_49
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1148
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe689285ca17f4830a3c05c71d937384
+      internalID: -7416857737352018982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_50
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 1152
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692f4424d74614ac393b3ccdfe1eea22
+      internalID: -9222736244246120485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_51
+      rect:
+        serializedVersion: 2
+        x: 5492
+        y: 1152
+        width: 23
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecd98075e93f4674a3512b951f218cf
+      internalID: 4828008899189374151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_52
+      rect:
+        serializedVersion: 2
+        x: 6577
+        y: 1148
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e948d6a4c14748b293fc50e1e9a790f
+      internalID: -7618393351552528035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_53
+      rect:
+        serializedVersion: 2
+        x: 7655
+        y: 1148
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bb14054a6ed4776b3682864a14cdce
+      internalID: -7924181336199847305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_54
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 1140
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8bb09bdb4c146e3b446ceb30eb4e98
+      internalID: -7464580455209094766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_55
+      rect:
+        serializedVersion: 2
+        x: 5514
+        y: 1127
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd21d93a5a464884a91f50cdd3b105b
+      internalID: -886608684759750203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_56
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 1123
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11384cab279149e8b0821970013ac13
+      internalID: 4987600961478109048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_57
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 1123
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8878bf25d9dd4d5591071151b3805d9
+      internalID: -6623427292958102249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_58
+      rect:
+        serializedVersion: 2
+        x: 6598
+        y: 1135
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33267cc2962824ab585fe6c62848f7ac
+      internalID: 2426813454683166433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_59
+      rect:
+        serializedVersion: 2
+        x: 7678
+        y: 1135
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a90b1d01b764451a9a3f6b27aa985f0
+      internalID: 6064939214366804635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_60
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1114
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e69934f9bc84e50b371a13b26ec202
+      internalID: 7654512120975603148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_61
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 1127
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e7448b4ef28459c9861d32eeb6360e
+      internalID: 2350282443363481239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_62
+      rect:
+        serializedVersion: 2
+        x: 6598
+        y: 1123
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d63be41c26c4301ade2ef3d5a78170
+      internalID: 704910816662085384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_63
+      rect:
+        serializedVersion: 2
+        x: 7678
+        y: 1123
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bfbd52b73784c16bb7c10cb67aa803
+      internalID: -438320781828747283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_64
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1110
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9c3d8069a0a45da992da47f62100a3
+      internalID: -6741162430812043659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_65
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1098
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e945523147c4e299b192667aea7b28
+      internalID: 4301642712190698988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_66
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 1089
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b609895ebc647ccb06aab2c0a62a34
+      internalID: -1122966230654824402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_67
+      rect:
+        serializedVersion: 2
+        x: 5485
+        y: 1089
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d351490a40ce4480a67363dfcb4c0c3
+      internalID: 4156241473905420616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_68
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 1085
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d908d38c55244e0d901a7a2568b2118
+      internalID: 8515835196256364000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_69
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 1085
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af48a3b0e12b94dceb5c58b774a07b1a
+      internalID: 157684885883220774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_70
+      rect:
+        serializedVersion: 2
+        x: 6569
+        y: 1085
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3778c04aa29814deebcaeb3625a7293d
+      internalID: 2181747740063706808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_71
+      rect:
+        serializedVersion: 2
+        x: 7649
+        y: 1085
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671106cbcfa5d40b7ae13b6aea0ab7ae
+      internalID: 8505698743804491019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_72
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1076
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e90deec3a144b8a8e5d810aa17e87e
+      internalID: -8405908643412511237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_73
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1059
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2892a26f684064974a17c83d90501d78
+      internalID: -4823607599375740195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_74
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 873
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd649f55464e7490aa5ee9e7b7154fbb
+      internalID: 5474761918635342530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_75
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 886
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0100750e6a340219d110930d05c3ae
+      internalID: -3316056377305216167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_76
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 898
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c8dfcbb44ac494d81265180661f34e
+      internalID: 157994635324958939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_77
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 898
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fee08370da44a4b8522b405ba2bf1a
+      internalID: 8663897601063440554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_78
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 899
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6163ef1e1863c47798bfb0e863ae972f
+      internalID: 6891884939264946581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_79
+      rect:
+        serializedVersion: 2
+        x: 5518
+        y: 899
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e18a125240214d7ab1b52eb9b97d466
+      internalID: -1116334873281237476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_80
+      rect:
+        serializedVersion: 2
+        x: 6602
+        y: 898
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2715fde7e87614c70a15607f8f731385
+      internalID: 1628733165597200922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_81
+      rect:
+        serializedVersion: 2
+        x: 7682
+        y: 898
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bddff0f71d644f2e877c38b5ac8c5bf
+      internalID: -2383329907700681407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightWalk_Final_82
+      rect:
+        serializedVersion: 2
+        x: 6826
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da31c8586a3f14bc79fd8443240d58dc
+      internalID: -2537847753001841873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
