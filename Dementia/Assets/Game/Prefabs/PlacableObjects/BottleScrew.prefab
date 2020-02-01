@@ -824,7 +824,6 @@ MonoBehaviour:
   mTraversed: 0
   mPlayerWaypoints: []
   mTrySnapping: 0
-  rotationAngle: 15
 --- !u!1 &8632185044060589554
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +834,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9155646188764749124}
   - component: {fileID: 1292505832}
+  - component: {fileID: 1349710430}
+  - component: {fileID: 1349710433}
   m_Layer: 8
   m_Name: BottleScrew
   m_TagString: Untagged
@@ -865,11 +866,39 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8632185044060589554}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 12.75, y: 2, z: 12.86}
   m_Center: {x: 0, y: -0.8, z: -4.91}
+--- !u!114 &1349710430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632185044060589554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb73572337565844bfb1b62e2439583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAngle: 15
+--- !u!114 &1349710433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632185044060589554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e6260f7a655c5419d3644c22dde040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toonMaterial: {fileID: 2100000, guid: 2bdc3cbcdecb6484aa2212b6ae27ae9c, type: 2}
+  toonMaterialHighlight: {fileID: 2100000, guid: a20a693b2cc84e6458423da88a5c2455,
+    type: 2}
 --- !u!1001 &441758539694598286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -937,6 +966,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 273313520847301356, guid: a6a0de062363d804887b41cdd05115f5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2bdc3cbcdecb6484aa2212b6ae27ae9c, type: 2}
+    - target: {fileID: 8405317065323677370, guid: a6a0de062363d804887b41cdd05115f5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2bdc3cbcdecb6484aa2212b6ae27ae9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6a0de062363d804887b41cdd05115f5, type: 3}
 --- !u!4 &4853690467472393108 stripped

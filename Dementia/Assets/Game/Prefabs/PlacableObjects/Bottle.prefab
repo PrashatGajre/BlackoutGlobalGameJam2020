@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7302671362583308973}
   - component: {fileID: 4166003953028443006}
   - component: {fileID: 4166003953028443007}
+  - component: {fileID: 955219828908368116}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: Untagged
@@ -67,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8748892135801146194, guid: a93bf50db48564443859c79196962a23, type: 3}
+  - {fileID: 2100000, guid: 2bdc3cbcdecb6484aa2212b6ae27ae9c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -129,6 +130,22 @@ MonoBehaviour:
     type: 3}
   mUseSnapingEditor: 0
   mUseWaypointsEditor: 1
+--- !u!114 &955219828908368116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4166003953028443004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9642ab6835d80b49aa5989c7bad0366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mIsMoving: 0
+  mTraversed: 0
+  mPlayerWaypoints: []
+  mTrySnapping: 0
 --- !u!1 &7615670713172351335
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +381,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7615670713946146394}
   - component: {fileID: 1122914043}
+  - component: {fileID: 460020304}
+  - component: {fileID: 460020307}
   m_Layer: 8
   m_Name: Bottle
   m_TagString: Untagged
@@ -394,11 +413,39 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7615670713946146395}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 6.52, y: 6, z: 17.79}
   m_Center: {x: -0.38, y: -2.02, z: -0.47}
+--- !u!114 &460020304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7615670713946146395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb73572337565844bfb1b62e2439583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAngle: 15
+--- !u!114 &460020307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7615670713946146395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e6260f7a655c5419d3644c22dde040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toonMaterial: {fileID: 2100000, guid: 2bdc3cbcdecb6484aa2212b6ae27ae9c, type: 2}
+  toonMaterialHighlight: {fileID: 2100000, guid: a20a693b2cc84e6458423da88a5c2455,
+    type: 2}
 --- !u!1 &7615670714264175335
 GameObject:
   m_ObjectHideFlags: 0
