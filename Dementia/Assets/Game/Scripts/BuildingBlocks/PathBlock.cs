@@ -48,6 +48,10 @@ public class PathBlock : MonoBehaviour
 
     void Start()
     {
+        if(mPlayerWaypoints.Length == 0)
+        {
+            Debug.LogErrorFormat("No Waypoints Set for Block {0}", gameObject.name);
+        }
         for(int aI = 0; aI < mPlayerWaypoints.Length; aI ++)
         {
             mPlayerWaypoints[aI].mWaypointIx = aI;
@@ -60,6 +64,7 @@ public class PathBlock : MonoBehaviour
         {
             mIsMoving = true;
             parent.position = new Vector3(pPosition.x, 0, pPosition.z);
+            parent.localRotation = rotation;
         }
     }
 
@@ -67,6 +72,7 @@ public class PathBlock : MonoBehaviour
     {
         mIsMoving = true;
         parent.Rotate(Vector3.up * rotationAngle);
+        rotation = parent.localRotation;
     }
 
     void Update()
