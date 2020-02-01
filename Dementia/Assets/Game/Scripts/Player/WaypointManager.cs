@@ -17,7 +17,7 @@ public class WaypointManager : MonoBehaviour
 
     Dictionary<int, List<PathBlock>> mActiveConnections = new Dictionary<int, List<PathBlock>>();
     PathBlock mActivePathBlock = null;
-
+    PlayerMovement mPlayer = null;
 
     public static bool CanMakeConnection(int pPathBlockInstance)
     {
@@ -30,13 +30,13 @@ public class WaypointManager : MonoBehaviour
 
     public static void AddNewConnection(Connection pConnection)
     {
-        int aSelfConId = pConnection.mSelfBlockSnapPoint.GetInstanceID();
-        int aOthConId = pConnection.mOtherBlockSnapPoint.GetInstanceID();
+        int aSelfConId = pConnection.mSelfBlockSnapPoint.mParentBlock.GetInstanceID();
+        int aOthConId = pConnection.mOtherBlockSnapPoint.mParentBlock.GetInstanceID();
         if (!mInstance.mActiveConnections.ContainsKey(aSelfConId))
         {
             mInstance.mActiveConnections.Add(aSelfConId, new List<PathBlock>());
         }
-        if(!mInstance.mActiveConnections.ContainsKey(aOthConId))
+        if (!mInstance.mActiveConnections.ContainsKey(aOthConId))
         {
             mInstance.mActiveConnections.Add(aOthConId, new List<PathBlock>());
         }
@@ -44,12 +44,18 @@ public class WaypointManager : MonoBehaviour
         mInstance.mActiveConnections[aSelfConId].Add(pConnection.mOtherBlockSnapPoint.mParentBlock);
         mInstance.mActiveConnections[aOthConId].Add(pConnection.mSelfBlockSnapPoint.mParentBlock);
 
+        if (mInstance.mActivePathBlock == pConnection.mOtherBlockSnapPoint.mParentBlock
+            || mInstance.mActivePathBlock == pConnection.mSelfBlockSnapPoint.mParentBlock)
+        {
+            mInstance.mPlayer.ResetWaypoint();
+        }
+
     }
 
     public static void RemovePreviousConnection(Connection pConnection)
     {
-        int aSelfConId = pConnection.mSelfBlockSnapPoint.GetInstanceID();
-        int aOthConId = pConnection.mOtherBlockSnapPoint.GetInstanceID();
+        int aSelfConId = pConnection.mSelfBlockSnapPoint.mParentBlock.GetInstanceID();
+        int aOthConId = pConnection.mOtherBlockSnapPoint.mParentBlock.GetInstanceID();
 
         if (mInstance.mActiveConnections.ContainsKey(aSelfConId))
         {
@@ -77,6 +83,11 @@ public class WaypointManager : MonoBehaviour
         mInstance.mActivePathBlock = pBlock;
     }
 
+    public static void SetActivePlayer(PlayerMovement pPlayer)
+    {
+        mInstance.mPlayer = pPlayer;
+    }
+
     int GetClosestWaypoint(Vector3 pRefPos)
     {
         int aClosestIx = 0;
@@ -87,6 +98,7 @@ public class WaypointManager : MonoBehaviour
             if (aDist < aShortestDistance)
             {
                 aClosestIx = aI;
+                aShortestDistance = aDist;
             }
         }
         return aClosestIx;
@@ -120,8 +132,8 @@ public class WaypointManager : MonoBehaviour
             }
             if(pPreviousWaypoint == null)
             {
-                int aOneDirection = pCurrentWaypoint.mWaypointIx--;
-                int aSecond = pCurrentWaypoint.mWaypointIx++;
+                int aOneDirection = pCurrentWaypoint.mWaypointIx-1;
+                int aSecond = pCurrentWaypoint.mWaypointIx+1;
                 if(aOneDirection == -1 && aSecond < mInstance.mActivePathBlock.mPlayerWaypoints.Length)
                 {
                     return mInstance.mActivePathBlock.mPlayerWaypoints[aSecond];

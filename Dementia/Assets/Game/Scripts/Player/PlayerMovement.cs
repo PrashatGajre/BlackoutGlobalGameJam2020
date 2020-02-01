@@ -14,11 +14,32 @@ public class PlayerMovement : MonoBehaviour
     PlayerWaypoint mPreviousWaypoint;
     Vector3 mMovePosition;
 
+    [Header("Debug")]
+    public bool mDebug = false;
+
     void Start()
     {
         mMovePosition = transform.position;
         mPreviousWaypoint = null;
         mCurrentWaypoint = null;
+    }
+
+    public void ResetWaypoint()
+    {
+        PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint, mPreviousWaypoint, transform.position);
+        if (aWayPoint == null)
+        {
+            mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 2.0f;
+            WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
+            mCurrentWaypoint = null;
+            mPreviousWaypoint = null;
+        }
+        else
+        {
+            mPreviousWaypoint = mCurrentWaypoint;
+            mCurrentWaypoint = aWayPoint;
+            mMovePosition = mCurrentWaypoint.transform.position;
+        }
     }
 
     void Update()
@@ -35,23 +56,14 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         transform.position += (mMovePosition - transform.position) * Time.deltaTime * mMoveSpeed;
+        if(mDebug)
+        {
+            Debug.DrawRay(transform.position, (mMovePosition - transform.position), Color.red);
+        }
         if (transform.position.x <= mMovePosition.x + 0.5f && transform.position.x >= mMovePosition.x - 0.5f
         && transform.position.z <= mMovePosition.z + 0.5f && transform.position.z >= mMovePosition.z - 0.5f)
         {
-            PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint, mPreviousWaypoint, transform.position);
-            if (aWayPoint == null)
-            {
-                mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 10.0f;
-                WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
-                mCurrentWaypoint = null;
-                mPreviousWaypoint = null;
-            }
-            else
-            {
-                mPreviousWaypoint = mCurrentWaypoint;
-                mCurrentWaypoint = aWayPoint;
-                mMovePosition = mCurrentWaypoint.transform.position;
-            }
+            ResetWaypoint();
         }
 
     }
