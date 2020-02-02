@@ -89,12 +89,15 @@ public class LevelManager : MonoBehaviour
         {
             List<CinemachineTargetGroup.Target> aTargets = new List<CinemachineTargetGroup.Target>(mTargetGroup.m_Targets);
             List<Transform> aTransforms = new List<Transform>();
+            List<Transform> aColTransforms = new List<Transform>();
+            List<CinemachineTargetGroup.Target> aRemovals = new List<CinemachineTargetGroup.Target>();
             foreach(var aTarget in aTargets)
             {
                 aTransforms.Add(aTarget.target);
             }
             foreach(RaycastHit aCol in aHit)
             {
+                aColTransforms.Add(aCol.collider.transform);
                 if(!aTransforms.Contains(aCol.collider.transform))
                 {
                     aTransforms.Add(aCol.collider.transform);
@@ -104,6 +107,28 @@ public class LevelManager : MonoBehaviour
                     aNewTarget.weight = 1.5f;
                     aTargets.Add(aNewTarget);
                 }
+            }
+            foreach(var aTarget in aTargets)
+            {
+                if(aTarget.target == null)
+                {
+                    aRemovals.Add(aTarget);
+                    continue;
+                }
+                if(!aColTransforms.Contains(aTarget.target))
+                {
+                    if(aTarget.target.gameObject.GetComponent<PlayerMovement>() == null)
+                    {
+                        if(aTarget.target.gameObject.GetComponent<EnemyRangeDetector>() == null)
+                        {
+                            aRemovals.Add(aTarget);
+                        }
+                    }
+                }
+            }
+            foreach(var aTarget in aRemovals)
+            {
+                aTargets.Remove(aTarget);
             }
             mTargetGroup.m_Targets = aTargets.ToArray();
         }
