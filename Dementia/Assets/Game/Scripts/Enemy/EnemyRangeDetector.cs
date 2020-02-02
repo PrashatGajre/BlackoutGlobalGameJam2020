@@ -5,7 +5,21 @@ using UnityEngine;
 public class EnemyRangeDetector : MonoBehaviour
 {
     public PlayerMovement mPlayer;
-    
+    public float mSpeed;
+
+
+    void Update()
+    {
+        if(mPlayer == null)
+        {
+            return;
+        }
+
+        transform.position += (mPlayer.transform.position - transform.position) * mSpeed * Time.deltaTime;
+
+    }
+
+
     void OnTriggerEnter(Collider other)
     {
         PlayerMovement aPlayer = other.GetComponent<PlayerMovement>();
