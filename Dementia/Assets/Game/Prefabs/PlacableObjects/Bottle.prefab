@@ -124,8 +124,8 @@ MonoBehaviour:
   - {fileID: 7615670714488414952}
   - {fileID: 7615670714264175334}
   wayPoints:
-  - {x: 0, y: 3, z: -1}
-  - {x: 0, y: 3, z: -16}
+  - {x: 0, y: 1.5, z: -1}
+  - {x: 0, y: 1.5, z: -7.9999995}
   spPrefab: {fileID: 4520147364519524660, guid: 54aedc5f4952e774da50e6c6859e1126,
     type: 3}
   mUseSnapingEditor: 0
