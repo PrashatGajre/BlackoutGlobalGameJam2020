@@ -52,6 +52,56 @@ public class WaypointManager : MonoBehaviour
 
     }
 
+    public static bool IsActivePathConnectedToEnemy()
+    {
+        if(mInstance.mActivePathBlock == null)
+        {
+            return false;
+        }
+        if(!mInstance.mActiveConnections.ContainsKey(mInstance.mActivePathBlock.GetInstanceID()))
+        {
+            return false;
+        }
+        if(mInstance.mActiveConnections[mInstance.mActivePathBlock.GetInstanceID()].Count <= 0)
+        {
+            return false;
+        }
+        
+        return mInstance.GetEnemyConnection() != null;
+    }
+
+    PathBlock GetEnemyConnection()
+    {
+        foreach (PathBlock aBlock in mInstance.mActiveConnections[mInstance.mActivePathBlock.GetInstanceID()])
+        {
+            if (aBlock.mIsEnemy)
+            {
+                return aBlock;
+            }
+        }
+        return null;
+    }
+
+    public static Vector3 GetPlacingPoint()
+    {
+        PathBlock aPBlock = mInstance.GetEnemyConnection();
+
+        if(aPBlock == null)
+        {
+            return mInstance.mPlayer.transform.position;
+        }
+
+        return (aPBlock.mPlayerWaypoints[1].transform.position + 
+            (mInstance.mActivePathBlock.mCurrentConnection.mOtherBlockSnapPoint.transform.position - 
+            aPBlock.mPlayerWaypoints[1].transform.position) / 2);
+
+    }
+
+    public static void RemoveEnemyConnection()
+    {
+        RemovePreviousConnection(mInstance.mActivePathBlock.mCurrentConnection);
+    }
+
     public static void RemovePreviousConnection(Connection pConnection)
     {
         int aSelfConId = pConnection.mSelfBlockSnapPoint.mParentBlock.GetInstanceID();
