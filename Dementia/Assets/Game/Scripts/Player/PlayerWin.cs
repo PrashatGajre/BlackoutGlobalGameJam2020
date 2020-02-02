@@ -13,6 +13,7 @@ public class PlayerWin : MonoBehaviour
         if(aPlayer != null)
         {
             mWin = true;
+            LevelManager.Instance.mPlay = false;
             mWinScreen.SetActive(true);
         }
     }
