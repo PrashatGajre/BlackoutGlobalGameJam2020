@@ -60,6 +60,7 @@ public class LevelManager : MonoBehaviour
         enemyRangeDetectors = new List<EnemyRangeDetector>(GameObject.FindObjectsOfType<EnemyRangeDetector>());
         pathBlocks = new List<PathBlock>(GameObject.FindObjectsOfType<PathBlock>());
         playerWin = GameObject.FindObjectOfType<PlayerWin>();
+        skybox = GameObject.FindObjectOfType<SkyboxShader>();
     }
 
     private void Update()
