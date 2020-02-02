@@ -16,7 +16,7 @@ public class CollectibleManager : MonoBehaviour
         mInstance = this;
     }
 
-    List<Light> mAvailableLights = new List<Light>();
+    List<LightObject> mAvailableLights = new List<LightObject>();
 
     void Update()
     {
@@ -28,7 +28,7 @@ public class CollectibleManager : MonoBehaviour
             }
             if(WaypointManager.IsActivePathConnectedToEnemy())
             {
-                Light aLight = mAvailableLights[0];
+                LightObject aLight = mAvailableLights[0];
                 mAvailableLights.RemoveAt(0);
                 aLight.PlaceLight(WaypointManager.GetPlacingPoint());
                 WaypointManager.RemoveEnemyConnection();
@@ -37,7 +37,7 @@ public class CollectibleManager : MonoBehaviour
     }
 
 
-    public static void AddLight(Light pLight)
+    public static void AddLight(LightObject pLight)
     {
         mInstance.mAvailableLights.Add(pLight);
     }
