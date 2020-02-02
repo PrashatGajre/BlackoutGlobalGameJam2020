@@ -32,36 +32,33 @@ public class LevelManager : MonoBehaviour
     {
         get
         {
-            if (m_ShuttingDown)
+            return m_Instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (m_Instance == null)
+        {// Search for existing instance.
+            m_Instance = (LevelManager)FindObjectOfType(typeof(LevelManager));
+
+            // Create new instance if one doesn't already exist.
+            if (m_Instance == null)
             {
-                Debug.LogWarning("[Singleton] Instance '" + typeof(LevelManager) +
-                    "' already destroyed. Returning null.");
-                return null;
-            }
+                // Need to create a new GameObject to attach the singleton to.
+                var singletonObject = new GameObject();
+                m_Instance = singletonObject.AddComponent<LevelManager>();
+                singletonObject.name = typeof(LevelManager).ToString() + " (Singleton)";
 
-            lock (m_Lock)
-            {
-                if (m_Instance == null)
-                {
-                    // Search for existing instance.
-                    m_Instance = (LevelManager)FindObjectOfType(typeof(LevelManager));
-
-                    // Create new instance if one doesn't already exist.
-                    if (m_Instance == null)
-                    {
-                        // Need to create a new GameObject to attach the singleton to.
-                        var singletonObject = new GameObject();
-                        m_Instance = singletonObject.AddComponent<LevelManager>();
-                        singletonObject.name = typeof(LevelManager).ToString() + " (Singleton)";
-
-                        // Make instance persistent.
-                        //DontDestroyOnLoad(singletonObject);
-                    }
-                }
-
-                return m_Instance;
+                // Make instance persistent.
+                //DontDestroyOnLoad(singletonObject);
             }
         }
+    }
+
+    public void Destroy()
+    {
+        GameObject.Destroy(this.gameObject);
     }
 
     private void Start()
