@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 6781085aba1684384b2f01400557d868
+guid: 92ba61326bdaa4d7d95438eab8df9068
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5040216324257921407
-    second: monster2_walking_0
+      213: 3207380938868346666
+    second: ENEMY_walk_SmolBecauseDavidHatesHappiness_0
   - first:
-      213: -643808763548508606
-    second: monster2_walking_1
+      213: -2513025670511061419
+    second: ENEMY_walk_SmolBecauseDavidHatesHappiness_1
   - first:
-      213: 6940756327347874414
-    second: monster2_walking_2
+      213: -1441803333501341265
+    second: ENEMY_walk_SmolBecauseDavidHatesHappiness_2
   - first:
-      213: -5374206887925483308
-    second: monster2_walking_3
+      213: -1774463620249444444
+    second: ENEMY_walk_SmolBecauseDavidHatesHappiness_3
+  - first:
+      213: 4252321170536517404
+    second: ENEMY_walk_SmolBecauseDavidHatesHappiness_4
+  - first:
+      213: 5270865299808154493
+    second: ENEMY_walk_SmolBecauseDavidHatesHappiness_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -32,7 +38,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -44,7 +50,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -98,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: monster2_walking_0
+      name: ENEMY_walk_SmolBecauseDavidHatesHappiness_0
       rect:
         serializedVersion: 2
-        x: 390
-        y: 81
-        width: 4480
-        height: 4020
+        x: 6
+        y: 0
+        width: 294
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d084a4d2c3c9394380eb07310b661d1
-      internalID: 5040216324257921407
+      spriteID: e389708bdb70c4d7490586875d68bf32
+      internalID: 3207380938868346666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster2_walking_1
+      name: ENEMY_walk_SmolBecauseDavidHatesHappiness_1
       rect:
         serializedVersion: 2
-        x: 4969
-        y: 81
-        width: 4480
-        height: 3867
+        x: 330
+        y: 0
+        width: 294
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69ad75913fac72240932fa1fd6751d2a
-      internalID: -643808763548508606
+      spriteID: 007fcf788fde247a88ab6e89f54fa35b
+      internalID: -2513025670511061419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster2_walking_2
+      name: ENEMY_walk_SmolBecauseDavidHatesHappiness_2
       rect:
         serializedVersion: 2
-        x: 9872
-        y: 81
-        width: 4480
-        height: 4020
+        x: 653
+        y: 0
+        width: 294
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f345bf6bae117640bf68bc06edc9855
-      internalID: 6940756327347874414
+      spriteID: faafbc42c928548b586fb1a7d01f37d2
+      internalID: -1441803333501341265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster2_walking_3
+      name: ENEMY_walk_SmolBecauseDavidHatesHappiness_3
       rect:
         serializedVersion: 2
-        x: 14796
-        y: 59
-        width: 4480
-        height: 4020
+        x: 974
+        y: 0
+        width: 294
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,8 +181,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a43be7bedb6d304ebea36c41dcf980d
-      internalID: -5374206887925483308
+      spriteID: f50a341f1cfe1490a9f1075a76b925e9
+      internalID: -1774463620249444444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENEMY_walk_SmolBecauseDavidHatesHappiness_4
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 0
+        width: 294
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13580f92172d24a40952f9d0f3e57938
+      internalID: 4252321170536517404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENEMY_walk_SmolBecauseDavidHatesHappiness_5
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 0
+        width: 294
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42129c541591f4c0c995681989c86150
+      internalID: 5270865299808154493
       vertices: []
       indices: 
       edges: []
@@ -184,7 +232,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 9a703aebe80b84b69a779934f3149e47
     internalID: 0
     vertices: []
     indices: 
