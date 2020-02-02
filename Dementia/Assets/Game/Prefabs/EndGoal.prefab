@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 871978279430582101}
   - component: {fileID: 871978279430582090}
   - component: {fileID: 4885525624259014972}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EndGoal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 684207756721909484}
   - component: {fileID: 1673842978061297722}
   - component: {fileID: 2696740370894201148}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}

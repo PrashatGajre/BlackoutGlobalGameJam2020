@@ -16,6 +16,10 @@ public class EnemyRangeDetector : MonoBehaviour
             return;
         }
 
+        if(!LevelManager.Instance.mPlay)
+        {
+            return;
+        }
         transform.position += (mPlayer.transform.position - transform.position) * mSpeed * Time.deltaTime;
 
     }
@@ -27,6 +31,11 @@ public class EnemyRangeDetector : MonoBehaviour
         if(aPlayer != null)
         {
             mPlayer = aPlayer;
+            if(!LevelManager.Instance.mTutDone)
+            {
+                LevelManager.Instance.StartTutorial();
+            }
+            LevelManager.Instance.OnEnemyAlarmOn();
         }
     }
 
@@ -47,6 +56,7 @@ public class EnemyRangeDetector : MonoBehaviour
         if(other.GetComponent<PlayerMovement>())
         {
             mPlayer = null;
+            LevelManager.Instance.OnEnemyAlarmOff();
         }
     }
 }

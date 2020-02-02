@@ -21,7 +21,7 @@ public class MouseInput : MonoBehaviour
     {
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        if (Physics.Raycast(ray, out hit, 1000))   
+        if (Physics.Raycast(ray, out hit, 1000, LayerMask.NameToLayer("MouseInput")))   
         {
             if (hit.transform.gameObject.name != gameObject.name) //Works only if the oject with the script is clicked
             {

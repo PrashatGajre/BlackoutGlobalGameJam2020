@@ -86,6 +86,10 @@ public class PlayerMovement : MonoBehaviour
             mStartDelay -= Time.deltaTime;
             return;
         }
+        if(!LevelManager.Instance.mPlay)
+        {
+            return;
+        }
         transform.position += (mMovePosition - transform.position) * Time.deltaTime * mMoveSpeed;
         SetAnimatorValues((mMovePosition - transform.position).normalized);
         if(mDebug)

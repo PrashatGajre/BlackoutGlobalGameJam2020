@@ -15,6 +15,9 @@ public class LevelManager : MonoBehaviour
     public List<PathBlock> pathBlocks;
     public SkyboxShader skybox;
 
+    public bool mPlay = true;
+    public bool mTutDone = false;
+    public GameObject mSpaceTut;
     /// <summary>
     /// Access LevelManager instance through this propriety.
     /// </summary>
@@ -72,6 +75,15 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void OnEnemyAlarmOn()
+    {
+        skybox.Alarm();
+    }
+    public void OnEnemyAlarmOff()
+    {
+        skybox.Ambient();
+    }
+
     private void OnApplicationQuit()
     {
         m_ShuttingDown = true;
@@ -82,4 +94,20 @@ public class LevelManager : MonoBehaviour
     {
         m_ShuttingDown = true;
     }
+
+
+    public void StartTutorial()
+    {
+        mPlay = false;
+        mSpaceTut.SetActive(true);
+    }
+
+    public void StopTutorial()
+    {
+        mPlay = true;
+        mTutDone = true;
+        mSpaceTut.SetActive(false);
+    }
+
+
 }

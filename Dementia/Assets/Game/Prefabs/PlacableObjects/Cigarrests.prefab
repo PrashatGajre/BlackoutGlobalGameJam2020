@@ -241,7 +241,7 @@ MonoBehaviour:
   hoverSpeedMax: 1
   rotationSpeedMax: 1
   changeDirrectionTime: 1.5
-  yPos: 3
+  yPos: 0
 --- !u!1 &7460838425035805933
 GameObject:
   m_ObjectHideFlags: 0
