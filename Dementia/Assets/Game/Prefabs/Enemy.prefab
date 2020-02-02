@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8416706756440276759}
+  - component: {fileID: 7009515221377696290}
+  - component: {fileID: 4905739458054400187}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -31,6 +33,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7009515221377696290
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416706756440276758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4905739458054400187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416706756440276758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b3c25d27c35c2488dd689df202befa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mPlayer: {fileID: 0}
 --- !u!1 &8416706756497088264
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,6 +70,8 @@ GameObject:
   - component: {fileID: 8416706756497088265}
   - component: {fileID: 8416706756497088267}
   - component: {fileID: 8416706756497088266}
+  - component: {fileID: 7257103190033765971}
+  - component: {fileID: 7195364470669690664}
   m_Layer: 0
   m_Name: MonsterSprite
   m_TagString: Untagged
@@ -101,13 +131,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5040216324257921407, guid: 6781085aba1684384b2f01400557d868,
+  m_Sprite: {fileID: 3207380938868346666, guid: 92ba61326bdaa4d7d95438eab8df9068,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 44.799995, y: 40.20251}
+  m_Size: {x: 2.94, y: 2.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -132,3 +162,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7257103190033765971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416706756497088264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 434609dfc5a8cd24ea6d049259d14899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mRangeDetector: {fileID: 4905739458054400187}
+--- !u!135 &7195364470669690664
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416706756497088264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3
+  m_Center: {x: 0, y: 0, z: 0}

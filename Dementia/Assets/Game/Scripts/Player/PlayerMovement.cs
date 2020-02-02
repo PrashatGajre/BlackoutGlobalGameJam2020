@@ -32,15 +32,21 @@ public class PlayerMovement : MonoBehaviour
         PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint, mPreviousWaypoint, transform.position);
         if (aWayPoint == null)
         {
+            Vector3 aTempMP = Vector3.zero;
             if(mPreviousWaypoint == null || mCurrentWaypoint == null)
             {
-                mMovePosition = transform.position;
+                aTempMP = mMovePosition = transform.position;
             }
             else
             {
-                mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 2.0f;
+                aTempMP = mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 2.0f;
             }
             WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
+            if(mMovePosition == aTempMP)
+            {
+                mDead = true;
+                GetComponent<Rigidbody>().isKinematic = false;
+            }
             mCurrentWaypoint = null;
             mPreviousWaypoint = null;
         }
@@ -78,12 +84,6 @@ public class PlayerMovement : MonoBehaviour
         && transform.position.z <= mMovePosition.z + 0.2f && transform.position.z >= mMovePosition.z - 0.2f)
         {
             ResetWaypoint();
-        }
-
-        if(!Physics.Raycast(transform.position, -Vector3.up,50.0f))
-        {
-            GetComponent<Rigidbody>().isKinematic = false;
-            mDead = true;
         }
 
 
