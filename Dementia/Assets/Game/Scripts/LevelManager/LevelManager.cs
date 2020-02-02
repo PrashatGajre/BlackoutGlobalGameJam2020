@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+
 
 public class LevelManager : MonoBehaviour
 {
+    public float mRadius = 3.0f;
+    public float mDistance = 5.0f;
+
     // Check to see if we're about to be destroyed.
     private static bool m_ShuttingDown = false;
     private static object m_Lock = new object();
@@ -14,6 +19,8 @@ public class LevelManager : MonoBehaviour
     public List<EnemyRangeDetector> enemyRangeDetectors;
     public List<PathBlock> pathBlocks;
     public SkyboxShader skybox;
+
+    public CinemachineTargetGroup mTargetGroup;
 
     public bool mPlay = true;
     public bool mTutDone = false;
@@ -75,13 +82,64 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void OnEnemyAlarmOn()
+    void FixedUpdate()
+    {
+        RaycastHit[] aHit = Physics.SphereCastAll(WaypointManager.GetPlayer().transform.position, mRadius, WaypointManager.GetPlayer().transform.forward, mDistance);
+        if (aHit.Length > 0)
+        {
+            List<CinemachineTargetGroup.Target> aTargets = new List<CinemachineTargetGroup.Target>(mTargetGroup.m_Targets);
+            List<Transform> aTransforms = new List<Transform>();
+            foreach(var aTarget in aTargets)
+            {
+                aTransforms.Add(aTarget.target);
+            }
+            foreach(RaycastHit aCol in aHit)
+            {
+                if(!aTransforms.Contains(aCol.collider.transform))
+                {
+                    aTransforms.Add(aCol.collider.transform);
+                    CinemachineTargetGroup.Target aNewTarget = new CinemachineTargetGroup.Target();
+                    aNewTarget.target = aCol.collider.transform;
+                    aNewTarget.radius = 2.0f;
+                    aNewTarget.weight = 1.5f;
+                    aTargets.Add(aNewTarget);
+                }
+            }
+            mTargetGroup.m_Targets = aTargets.ToArray();
+        }
+    }
+
+    public void OnEnemyAlarmOn(Transform pTarget)
     {
         skybox.Alarm();
+        CinemachineTargetGroup.Target aTarget = new CinemachineTargetGroup.Target();
+        aTarget.target = pTarget;
+        aTarget.weight = 2;
+        aTarget.radius = 2;
+        CinemachineTargetGroup.Target[] aTargets = new CinemachineTargetGroup.Target[mTargetGroup.m_Targets.Length + 1];
+        int aI = 0;
+        foreach(CinemachineTargetGroup.Target aTargetG in mTargetGroup.m_Targets)
+        {
+            aTargets[aI] = aTargetG;
+            aI++;
+        }
+        aTargets[aI] = aTarget;
+        mTargetGroup.m_Targets = aTargets;
     }
-    public void OnEnemyAlarmOff()
+    public void OnEnemyAlarmOff(Transform pTarget)
     {
         skybox.Ambient();
+        CinemachineTargetGroup.Target[] aTargets = new CinemachineTargetGroup.Target[mTargetGroup.m_Targets.Length - 1];
+        int aI = 0;
+        foreach (CinemachineTargetGroup.Target aTargetG in mTargetGroup.m_Targets)
+        {
+            if(aTargetG.target != pTarget)
+            {
+                aTargets[aI] = aTargetG;
+                aI++;
+            }
+        }
+        mTargetGroup.m_Targets = aTargets;
     }
 
     private void OnApplicationQuit()
