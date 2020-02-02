@@ -4,6 +4,7 @@ public class ToonShaderOutline : MonoBehaviour
 {    
     public Material toonMaterial;
     public Material toonMaterialHighlight;
+    public Material toonMaterialSnapped;
 
     Material[] materials;
     MeshRenderer[] meshRenderers = new MeshRenderer[1];
