@@ -79,13 +79,35 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void OnEnemyAlarmOn()
+    public void OnEnemyAlarmOn(Transform pTarget)
     {
         skybox.Alarm();
+        CinemachineTargetGroup.Target aTarget = new CinemachineTargetGroup.Target();
+        aTarget.target = pTarget;
+        aTarget.weight = 2;
+        aTarget.radius = 2;
+        CinemachineTargetGroup.Target[] aTargets = new CinemachineTargetGroup.Target[mTargetGroup.m_Targets.Length + 1];
+        int aI = 0;
+        foreach(CinemachineTargetGroup.Target aTargetG in mTargetGroup.m_Targets)
+        {
+            aTargets[aI] = aTargetG;
+            aI++;
+        }
+        aTargets[aI] = aTarget;
     }
-    public void OnEnemyAlarmOff()
+    public void OnEnemyAlarmOff(Transform pTarget)
     {
         skybox.Ambient();
+        CinemachineTargetGroup.Target[] aTargets = new CinemachineTargetGroup.Target[mTargetGroup.m_Targets.Length - 1];
+        int aI = 0;
+        foreach (CinemachineTargetGroup.Target aTargetG in mTargetGroup.m_Targets)
+        {
+            if(aTargetG.target != pTarget)
+            {
+                aTargets[aI] = aTargetG;
+                aI++;
+            }
+        }
     }
 
     private void OnApplicationQuit()
