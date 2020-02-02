@@ -22,6 +22,7 @@ public class ToonShaderOutline : MonoBehaviour
         materials[1] = toonMaterialHighlight;
         foreach (MeshRenderer mr in meshRenderers)
         {
+            if(mr.GetComponent<SnapPoint>() == null)
             mr.materials = materials;
         }
     }

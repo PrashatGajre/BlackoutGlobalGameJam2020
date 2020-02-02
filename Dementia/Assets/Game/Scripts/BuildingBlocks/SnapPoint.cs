@@ -55,7 +55,9 @@ public class SnapPoint : MonoBehaviour
             }
             if(!mParentBlock.mActiveClosestPoints.ContainsKey(this.GetInstanceID()))
             {
-                mParentBlock.mActiveClosestPoints.Add(this.GetInstanceID(), new Connection(this, aSP));
+                Connection aConnection = new Connection(this, aSP);
+                mParentBlock.mActiveClosestPoints.Add(this.GetInstanceID(), aConnection);
+                PathBlock.mActiveConnections.Add(this.GetInstanceID(), aConnection);
             }
         }
     }
@@ -81,6 +83,9 @@ public class SnapPoint : MonoBehaviour
             else if(mParentBlock.mActiveClosestPoints.ContainsKey(this.GetInstanceID()))
             {
                 mParentBlock.mActiveClosestPoints.Remove(this.GetInstanceID());
+                PathBlock.mActiveConnections[this.GetInstanceID()].mSelfBlockSnapPoint.gameObject.GetComponent<MeshRenderer>().enabled = false;
+                PathBlock.mActiveConnections[this.GetInstanceID()].mOtherBlockSnapPoint.gameObject.GetComponent<MeshRenderer>().enabled = false;
+                PathBlock.mActiveConnections.Remove(this.GetInstanceID());
             }
         }
     }
