@@ -19,6 +19,7 @@ public class PathBlock : MonoBehaviour
     public bool mIsMoving = false;
     public bool mTraversed = false;
     public bool mIsEnemy = false;
+    public bool mIsFirst = false;
     public Dictionary<int, Connection> mActiveClosestPoints = new Dictionary<int, Connection>();
     public PlayerWaypoint[] mPlayerWaypoints;
 
@@ -76,12 +77,19 @@ public class PathBlock : MonoBehaviour
         mCurrentConnection = aSelectedConnection;
         WaypointManager.AddNewConnection(mCurrentConnection);
         //debug only for now
-        transform.parent.position += (aSelectedConnection.mOtherBlockSnapPoint.transform.position - aSelectedConnection.mSelfBlockSnapPoint.transform.position);
+        Vector3 aEndGoal = aSelectedConnection.mOtherBlockSnapPoint.transform.position;
+        Vector3 aStartGoal = aSelectedConnection.mSelfBlockSnapPoint.transform.position;
+        aEndGoal.y = aStartGoal.y = 0;
+        transform.parent.position += (aEndGoal - aStartGoal);
 
     }
 
     public void OnCollisionEnter(Collision collision)
     {
+        if(mCurrentConnection.mOtherBlockSnapPoint == null && !mIsFirst)
+        {
+            return;
+        }
         PlayerMovement aPlayer = collision.collider.GetComponent<PlayerMovement>();
         if(aPlayer != null)
         {

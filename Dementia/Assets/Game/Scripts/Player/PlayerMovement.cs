@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool mIsMoving = false;
 
+    public bool mDead = false;
+
     PlayerWaypoint mCurrentWaypoint;
     PlayerWaypoint mPreviousWaypoint;
     Vector3 mMovePosition;
@@ -30,7 +32,14 @@ public class PlayerMovement : MonoBehaviour
         PlayerWaypoint aWayPoint = WaypointManager.GetNextWaypoint(mCurrentWaypoint, mPreviousWaypoint, transform.position);
         if (aWayPoint == null)
         {
-            mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 2.0f;
+            if(mPreviousWaypoint == null || mCurrentWaypoint == null)
+            {
+                mMovePosition = transform.position;
+            }
+            else
+            {
+                mMovePosition = transform.position + (mCurrentWaypoint.transform.position - mPreviousWaypoint.transform.position) * 2.0f;
+            }
             WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
             mCurrentWaypoint = null;
             mPreviousWaypoint = null;
@@ -45,6 +54,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if(mDead)
+        {
+            return;
+        }
         if (!mIsMoving)
         {
             if (mStartDelay <= 0.0f)
@@ -61,11 +74,18 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.DrawRay(transform.position, (mMovePosition - transform.position), Color.red);
         }
-        if (transform.position.x <= mMovePosition.x + 0.5f && transform.position.x >= mMovePosition.x - 0.5f
-        && transform.position.z <= mMovePosition.z + 0.5f && transform.position.z >= mMovePosition.z - 0.5f)
+        if (transform.position.x <= mMovePosition.x + 0.2f && transform.position.x >= mMovePosition.x - 0.2f
+        && transform.position.z <= mMovePosition.z + 0.2f && transform.position.z >= mMovePosition.z - 0.2f)
         {
             ResetWaypoint();
         }
+
+        if(!Physics.Raycast(transform.position, -Vector3.up,50.0f))
+        {
+            GetComponent<Rigidbody>().isKinematic = false;
+            mDead = true;
+        }
+
 
     }
 

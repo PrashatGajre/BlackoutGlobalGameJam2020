@@ -42,9 +42,19 @@ public class MoveBlocks : MonoBehaviour
         pathBlock.mIsMoving = true;
         parent.Rotate(Vector3.up * rotationAngle);
         rotation = parent.localRotation;
+        pathBlock.mTrySnapping = true;
+        pathBlock.mIsMoving = false;
     }
     void Update()
     {
+        if(pathBlock.mTraversed)
+        {
+            return;
+        }
+        if(pathBlock.mNextConnection.mOtherBlockSnapPoint !=null && pathBlock.mCurrentConnection.mOtherBlockSnapPoint != null)
+        {
+            return;
+        }
         MoveBlock(mouseInput.MouseDragPosition());
         if (mouseInput.IsMouseRightUp())
         {
@@ -53,6 +63,7 @@ public class MoveBlocks : MonoBehaviour
         if (mouseInput.IsMouseLeftUp())
         {
             pathBlock.mTrySnapping = true;
+            pathBlock.mIsMoving = false;
         }
     }
 }

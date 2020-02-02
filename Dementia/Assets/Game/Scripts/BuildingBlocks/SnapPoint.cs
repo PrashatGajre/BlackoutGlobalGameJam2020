@@ -49,6 +49,10 @@ public class SnapPoint : MonoBehaviour
             {
                 return;
             }
+            if(!WaypointManager.IsActivePathBlock(aSP.mParentBlock.GetInstanceID()))
+            {
+                return;
+            }
             if(!mParentBlock.mActiveClosestPoints.ContainsKey(this.GetInstanceID()))
             {
                 mParentBlock.mActiveClosestPoints.Add(this.GetInstanceID(), new Connection(this, aSP));

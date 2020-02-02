@@ -28,6 +28,14 @@ public class WaypointManager : MonoBehaviour
         return true;
     }
 
+    public static bool IsActivePathBlock(int pBlock)
+    {
+        if(mInstance.mActivePathBlock == null)
+        {
+            return false;
+        }
+        return mInstance.mActivePathBlock.GetInstanceID() == pBlock;
+    }
 
     public static void AddNewConnection(Connection pConnection)
     {
@@ -182,6 +190,10 @@ public class WaypointManager : MonoBehaviour
                         else if(aClosestPoint < pCurrentWaypoint.mWaypointIx && pCurrentWaypoint.mWaypointIx-1 > -1)
                         {
                             return mInstance.mActivePathBlock.mPlayerWaypoints[pCurrentWaypoint.mWaypointIx - 1];
+                        }
+                        else 
+                        {
+                            return null;
                         }
                     }
                 }
