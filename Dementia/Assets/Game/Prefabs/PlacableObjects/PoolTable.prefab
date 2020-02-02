@@ -689,6 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mIsMoving: 0
   mTraversed: 0
+  mIsEnemy: 0
   mPlayerWaypoints: []
   mTrySnapping: 0
 --- !u!114 &1975028634978744543
@@ -721,6 +722,19 @@ MonoBehaviour:
     type: 3}
   mUseSnapingEditor: 0
   mUseWaypointsEditor: 1
+--- !u!65 &7660788025489124521
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7514637518452466133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.040071, y: 7.6329885, z: 28.891592}
+  m_Center: {x: -0.16557027, y: -2.051624, z: 0.25272277}
 --- !u!1001 &1975028634978744540
 PrefabInstance:
   m_ObjectHideFlags: 0
