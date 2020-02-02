@@ -73,8 +73,6 @@ public class SnapPoint : MonoBehaviour
             if(mParentBlock.mCurrentConnection.mSelfBlockSnapPoint == this)
             {
                 WaypointManager.RemovePreviousConnection(mParentBlock.mCurrentConnection);
-                mParentBlock.mCurrentConnection.mSelfBlockSnapPoint = null;
-                mParentBlock.mCurrentConnection.mOtherBlockSnapPoint = null;
             }
             else if(mParentBlock.mActiveClosestPoints.ContainsKey(this.GetInstanceID()))
             {

@@ -187,10 +187,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1275875774, guid: 85c5b4d524d2187448b21c8277d3aff4, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85c5b4d524d2187448b21c8277d3aff4, type: 3}
 --- !u!1001 &349554396
@@ -259,10 +255,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122914043, guid: 926333fa40a8e0b4d88be4684b87c519, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 926333fa40a8e0b4d88be4684b87c519, type: 3}
@@ -344,26 +336,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &505541824 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7514637518452466133, guid: 85c5b4d524d2187448b21c8277d3aff4,
-    type: 3}
-  m_PrefabInstance: {fileID: 124051790}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &505541830
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505541824}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 7966422997845880316, guid: 9afec0459b77fff41a9bc3355117e361, type: 3}
 --- !u!1 &510079109
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +434,7 @@ PrefabInstance:
     - target: {fileID: 9155646188764749124, guid: 8dd9fc4a78641ba4ea1c0dc93989fcf2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: -8.28
       objectReference: {fileID: 0}
     - target: {fileID: 9155646188764749124, guid: 8dd9fc4a78641ba4ea1c0dc93989fcf2,
         type: 3}
@@ -472,7 +444,7 @@ PrefabInstance:
     - target: {fileID: 9155646188764749124, guid: 8dd9fc4a78641ba4ea1c0dc93989fcf2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.16
+      value: 20.32
       objectReference: {fileID: 0}
     - target: {fileID: 9155646188764749124, guid: 8dd9fc4a78641ba4ea1c0dc93989fcf2,
         type: 3}
@@ -513,10 +485,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292505832, guid: 8dd9fc4a78641ba4ea1c0dc93989fcf2, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dd9fc4a78641ba4ea1c0dc93989fcf2, type: 3}
@@ -586,6 +554,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3505187220389351453, guid: 514a762a9151fca4695d9034a696fde2,
+        type: 3}
+      propertyPath: mUseWaypointsEditor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3505187220389351453, guid: 514a762a9151fca4695d9034a696fde2,
+        type: 3}
+      propertyPath: wayPoints.Array.data[0].z
+      value: -0.06733513
+      objectReference: {fileID: 0}
+    - target: {fileID: 3505187220389351453, guid: 514a762a9151fca4695d9034a696fde2,
+        type: 3}
+      propertyPath: wayPoints.Array.data[1].z
+      value: -0.07481766
       objectReference: {fileID: 0}
     - target: {fileID: 2370780497185165517, guid: 514a762a9151fca4695d9034a696fde2,
         type: 3}
@@ -774,7 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab7cb09e95342284fadf0878cbf81f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMoveSpeed: 1
+  mMoveSpeed: 0.1
   mStartDelay: 2
   mDebug: 1
 --- !u!65 &1916930830
@@ -788,7 +771,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 10.16, z: 1}
   m_Center: {x: 0, y: 0.74, z: 0}
 --- !u!54 &1916930831
 Rigidbody:
@@ -801,8 +784,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 32
+  m_Constraints: 116
   m_CollisionDetection: 0

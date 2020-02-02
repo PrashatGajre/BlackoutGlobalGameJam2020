@@ -23,7 +23,7 @@ public class PathBlock : MonoBehaviour
     public PlayerWaypoint[] mPlayerWaypoints;
 
     public Connection mCurrentConnection = new Connection(null,null);
-    
+    public Connection mNextConnection = new Connection(null, null);
 
     [Header("Debug")]
     public bool mTrySnapping;
@@ -74,8 +74,9 @@ public class PathBlock : MonoBehaviour
             return;
         }
         mCurrentConnection = aSelectedConnection;
+        WaypointManager.AddNewConnection(mCurrentConnection);
         //debug only for now
-        transform.position += (aSelectedConnection.mOtherBlockSnapPoint.transform.position - aSelectedConnection.mSelfBlockSnapPoint.transform.position);
+        transform.parent.position += (aSelectedConnection.mOtherBlockSnapPoint.transform.position - aSelectedConnection.mSelfBlockSnapPoint.transform.position);
 
     }
 
