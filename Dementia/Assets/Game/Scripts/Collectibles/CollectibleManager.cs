@@ -26,12 +26,20 @@ public class CollectibleManager : MonoBehaviour
             {
                 return;
             }
-            if(WaypointManager.IsActivePathConnectedToEnemy())
+            List<EnemyRangeDetector> aEnemiesAfterPlayer = new List<EnemyRangeDetector>();
+            foreach(EnemyRangeDetector aEnemies in LevelManager.Instance.enemyRangeDetectors)
             {
-                LightObject aLight = mAvailableLights[0];
+                if(aEnemies.mPlayer != null)
+                {
+                    aEnemiesAfterPlayer.Add(aEnemies);
+                }
+            }
+
+            if(aEnemiesAfterPlayer.Count > 0)
+            {
+                LightObject aObject = mAvailableLights[0];
                 mAvailableLights.RemoveAt(0);
-                aLight.PlaceLight(WaypointManager.GetPlacingPoint());
-                WaypointManager.RemoveEnemyConnection();
+                aObject.PlaceLight(aEnemiesAfterPlayer);
             }
         }
     }

@@ -16,6 +16,12 @@ public class PlayerMovement : MonoBehaviour
     PlayerWaypoint mPreviousWaypoint;
     Vector3 mMovePosition;
 
+
+    public Animator mAnimator;
+    public SpriteRenderer mRenderer;
+
+
+
     [Header("Debug")]
     public bool mDebug = false;
 
@@ -81,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         transform.position += (mMovePosition - transform.position) * Time.deltaTime * mMoveSpeed;
+        SetAnimatorValues((mMovePosition - transform.position).normalized);
         if(mDebug)
         {
             Debug.DrawRay(transform.position, (mMovePosition - transform.position), Color.red);
@@ -90,9 +97,47 @@ public class PlayerMovement : MonoBehaviour
         {
             ResetWaypoint();
         }
+    }
+
+    void SetAnimatorValues(Vector3 pMoveVector)
+    {
+        if(pMoveVector.sqrMagnitude == 0.0f)
+        {
+            mAnimator.SetFloat("IdleMag", 0.0f);
+            mAnimator.SetFloat("Horizontal", 0.0f);
+            mAnimator.SetFloat("Vertical", 0.0f);
+            return;
+        }
+
+        float aAngle = Vector3.SignedAngle(transform.right, pMoveVector,Vector3.up);
+        mAnimator.SetFloat("IdleMag", 1.0f);
+        mRenderer.flipX = false;
+        if (aAngle >= 15f && aAngle <= 15f)
+        {
+            mAnimator.SetFloat("Horizontal", 0.0f);
+            mAnimator.SetFloat("Vertical", 1.0f);
+
+        }
+        else if(aAngle >=-165f && aAngle <= 165f)
+        {
+            mAnimator.SetFloat("Horizontal", 0.0f);
+            mAnimator.SetFloat("Vertical", -1.0f);
+
+        }
+        else if(aAngle < 0.0f)
+        {
+            mAnimator.SetFloat("Horizontal", -1.0f);
+            mAnimator.SetFloat("Vertical", 0.0f);
+            mRenderer.flipX = true;
+
+        }
+        else
+        {
+            mAnimator.SetFloat("Horizontal", 1.0f);
+            mAnimator.SetFloat("Vertical", 0.0f);
+        }
 
 
     }
-
 
 }

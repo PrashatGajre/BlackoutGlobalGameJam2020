@@ -35,11 +35,23 @@ public class LightObject : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void PlaceLight(Vector3 pPosition)
+    public void PlaceLight(List<EnemyRangeDetector> pEnemiesAfterPlayer)
     {
-        transform.position = pPosition;
+        EnemyRangeDetector aClosestEnemy = null;
+        float aDist = float.MaxValue;
+        foreach(EnemyRangeDetector aEnemy in pEnemiesAfterPlayer)
+        {
+            float aDistance = (aEnemy.transform.position - aEnemy.mPlayer.transform.position).sqrMagnitude;
+            if(aDistance < aDist)
+            {
+                aClosestEnemy = aEnemy;
+            }
+        }
+
+        mEnemy = aClosestEnemy;
+        transform.position = mEnemy.mPlayer.transform.position + (mEnemy.transform.position - mEnemy.mPlayer.transform.position).normalized * 2.0f;
         gameObject.SetActive(true);
-        //get enemy from level manager
+
     }
 
 }

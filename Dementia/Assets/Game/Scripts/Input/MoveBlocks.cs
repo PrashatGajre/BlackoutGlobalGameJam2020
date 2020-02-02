@@ -31,6 +31,7 @@ public class MoveBlocks : MonoBehaviour
     {
         if (pPosition != Vector3.zero)
         {
+            Destroy(GetComponent<AnimatePlacableObject>());
             pathBlock.mIsMoving = true;
             parent.position = new Vector3(pPosition.x, 0, pPosition.z);
             parent.localRotation = rotation;
