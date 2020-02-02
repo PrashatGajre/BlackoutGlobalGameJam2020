@@ -2309,3 +2309,7 @@ MonoBehaviour:
   mAudioData:
   - mAudioClip: {fileID: 8300000, guid: 4c9c06f0f22cf462aa13590466bfe3d3, type: 3}
     mAudioGroup: Music
+  - mAudioClip: {fileID: 8300000, guid: 3e417dd1b85714e5fad80df4702ea65f, type: 3}
+    mAudioGroup: Sfx
+  - mAudioClip: {fileID: 8300000, guid: dc1a648bc208c41d1b652773f1b41b88, type: 3}
+    mAudioGroup: Sfx

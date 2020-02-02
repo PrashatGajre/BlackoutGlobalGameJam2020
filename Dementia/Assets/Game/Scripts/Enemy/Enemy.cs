@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
         }
         mRangeDetector.mDead = true;
         mRangeDetector.gameObject.SetActive(false);
+        AudioManager.PlaySFX("Enemy_Death");
         LevelManager.Instance.OnEnemyAlarmOff(transform.parent);
     }
 
