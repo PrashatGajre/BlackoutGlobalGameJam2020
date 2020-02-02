@@ -658,6 +658,7 @@ MonoBehaviour:
   toonMaterial: {fileID: 2100000, guid: 2bdc3cbcdecb6484aa2212b6ae27ae9c, type: 2}
   toonMaterialHighlight: {fileID: 2100000, guid: a20a693b2cc84e6458423da88a5c2455,
     type: 2}
+  toonMaterialSnapped: {fileID: 2100000, guid: daab7561cc6a66d46a25f0194f82038e, type: 2}
 --- !u!1 &7615670714264175335
 GameObject:
   m_ObjectHideFlags: 0

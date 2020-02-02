@@ -739,6 +739,7 @@ GameObject:
   - component: {fileID: 344309248}
   - component: {fileID: 344309251}
   - component: {fileID: 3086762789800123488}
+  - component: {fileID: 414902868596626475}
   m_Layer: 8
   m_Name: Bottlecap
   m_TagString: Untagged
@@ -802,7 +803,7 @@ MonoBehaviour:
   toonMaterial: {fileID: 2100000, guid: 2bdc3cbcdecb6484aa2212b6ae27ae9c, type: 2}
   toonMaterialHighlight: {fileID: 2100000, guid: a20a693b2cc84e6458423da88a5c2455,
     type: 2}
-  toonMaterialSnapped: {fileID: 0}
+  toonMaterialSnapped: {fileID: 2100000, guid: daab7561cc6a66d46a25f0194f82038e, type: 2}
 --- !u!114 &3086762789800123488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -815,3 +816,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d94cc0677106884893b5ffcbb4b901d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &414902868596626475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8427429637980453567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f500bfdee574b7f4fbe22eb6057cf750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverSpeedMax: 1
+  rotationSpeedMax: 1
+  changeDirrectionTime: 1.5
+  yPos: 3
