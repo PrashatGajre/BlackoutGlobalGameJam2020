@@ -26,6 +26,8 @@ public class PathBlock : MonoBehaviour
     public Connection mCurrentConnection = new Connection(null,null);
     public Connection mNextConnection = new Connection(null, null);
 
+    public static Dictionary<int, Connection> mActiveConnections = new Dictionary<int, Connection>();
+
     [Header("Debug")]
     public bool mTrySnapping;
     
@@ -70,6 +72,12 @@ public class PathBlock : MonoBehaviour
             }
         }
         mActiveClosestPoints.Clear();
+        foreach (Connection aConnection in PathBlock.mActiveConnections.Values)
+        {
+            aConnection.mSelfBlockSnapPoint.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            aConnection.mOtherBlockSnapPoint.gameObject.GetComponent<MeshRenderer>().enabled = false;
+        }
+        mActiveConnections.Clear();
         if(aSelectedConnection.mSelfBlockSnapPoint == null)
         {
             return;
