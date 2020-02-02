@@ -11,6 +11,12 @@ public class SkyboxShader : MonoBehaviour
     [SerializeField] Color alarmColorTop = Color.blue;
     [SerializeField] Color alarmColorBottom = Color.magenta;
 
+    [SerializeField] float startIntensity = 1.0f;
+    [SerializeField] float startExponent = 1.0f;
+
+    [SerializeField] float alarmIntensity = 1.0f;
+    [SerializeField] float alarmExponent = 1.0f;
+
     void Start()
     {
         RenderSettings.skybox.SetColor("_Color1", startColorBottom);
@@ -22,11 +28,15 @@ public class SkyboxShader : MonoBehaviour
         {
             RenderSettings.skybox.SetColor("_Color1", startColorBottom);
             RenderSettings.skybox.SetColor("_Color2", startColorTop);
+            RenderSettings.skybox.SetFloat("Intensity", startIntensity);
+            RenderSettings.skybox.SetFloat("Exponent", startExponent);
         }
         if (Input.GetKeyDown(KeyCode.M))
         {
             RenderSettings.skybox.SetColor("_Color1", alarmColorBottom);
             RenderSettings.skybox.SetColor("_Color2", alarmColorTop);
+            RenderSettings.skybox.SetFloat("Intensity", alarmIntensity);
+            RenderSettings.skybox.SetFloat("Exponent", alarmExponent);
         }
     }
 
