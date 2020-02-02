@@ -82,6 +82,7 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+
     void FixedUpdate()
     {
         RaycastHit[] aHit = Physics.SphereCastAll(WaypointManager.GetPlayer().transform.position, mRadius, WaypointManager.GetPlayer().transform.forward, mDistance);
