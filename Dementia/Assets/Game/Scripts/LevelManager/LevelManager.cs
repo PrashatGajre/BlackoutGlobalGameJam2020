@@ -17,6 +17,7 @@ public class LevelManager : MonoBehaviour
 
     public bool mPlay = true;
     public bool mTutDone = false;
+    public GameObject mSpaceTut;
     /// <summary>
     /// Access LevelManager instance through this propriety.
     /// </summary>
@@ -98,13 +99,14 @@ public class LevelManager : MonoBehaviour
     public void StartTutorial()
     {
         mPlay = false;
-        //ui
+        mSpaceTut.SetActive(true);
     }
 
     public void StopTutorial()
     {
         mPlay = true;
         mTutDone = true;
+        mSpaceTut.SetActive(false);
     }
 
 

@@ -108,6 +108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mPlaced: 0
   mCollected: 0
+  mSpeed: 1
+  mEnemy: {fileID: 0}
 --- !u!1 &6639378235146956359
 GameObject:
   m_ObjectHideFlags: 0
