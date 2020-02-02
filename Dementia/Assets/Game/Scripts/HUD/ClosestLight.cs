@@ -5,17 +5,17 @@ using UnityEngine;
 public class ClosestLight : MonoBehaviour
 {
     [SerializeField]Transform pointTo;
-    private LightObject[] lightObjects;
+    //private LightObject[] LevelManager.Instance.lightObjects;
     Vector3 closestPosition = new Vector3(100,100,100);
 
     private void Start()
     {
-        lightObjects = GameObject.FindObjectsOfType<LightObject>();
-        for (int i = 0; i < lightObjects.Length; i++)
+        //LevelManager.Instance.lightObjects = GameObject.FindObjectsOfType<LightObject>();
+        for (int i = 0; i < LevelManager.Instance.lightObjects.Count; i++)
         {
-            if (Vector3.Distance(lightObjects[i].transform.position, transform.position) < Vector3.Distance(closestPosition,transform.position))
+            if (Vector3.Distance(LevelManager.Instance.lightObjects[i].transform.position, transform.position) < Vector3.Distance(closestPosition,transform.position))
             {
-                pointTo = lightObjects[i].transform;
+                pointTo = LevelManager.Instance.lightObjects[i].transform;
             }
         }
     }
@@ -23,12 +23,12 @@ public class ClosestLight : MonoBehaviour
     void Update ()
     {
         closestPosition = new Vector3(100,100,100);
-        for (int i = 0; i < lightObjects.Length; i++)
+        for (int i = 0; i < LevelManager.Instance.lightObjects.Count; i++)
         {
-            //Debug.Log(Vector3.Distance(lightObjects[i].transform.position, transform.position) + " < " + Vector3.Distance(closestPosition, transform.position));
-            if (Vector3.Distance(lightObjects[i].transform.position, transform.position) < Vector3.Distance(closestPosition, transform.position))
+            //Debug.Log(Vector3.Distance(LevelManager.Instance.lightObjects[i].transform.position, transform.position) + " < " + Vector3.Distance(closestPosition, transform.position));
+            if (Vector3.Distance(LevelManager.Instance.lightObjects[i].transform.position, transform.position) < Vector3.Distance(closestPosition, transform.position))
             {
-                pointTo = lightObjects[i].transform;
+                pointTo = LevelManager.Instance.lightObjects[i].transform;
                 closestPosition = pointTo.position;
             }
         }
