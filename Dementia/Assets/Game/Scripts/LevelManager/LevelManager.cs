@@ -94,6 +94,7 @@ public class LevelManager : MonoBehaviour
             aI++;
         }
         aTargets[aI] = aTarget;
+        mTargetGroup.m_Targets = aTargets;
     }
     public void OnEnemyAlarmOff(Transform pTarget)
     {
@@ -108,6 +109,7 @@ public class LevelManager : MonoBehaviour
                 aI++;
             }
         }
+        mTargetGroup.m_Targets = aTargets;
     }
 
     private void OnApplicationQuit()
