@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
         }
         mRangeDetector.mDead = true;
         mRangeDetector.gameObject.SetActive(false);
-        LevelManager.Instance.OnEnemyAlarmOff();
+        LevelManager.Instance.OnEnemyAlarmOff(transform.parent);
     }
 
     void CheckPlayer(Collider other)

@@ -19,6 +19,11 @@ public class WaypointManager : MonoBehaviour
     PathBlock mActivePathBlock = null;
     PlayerMovement mPlayer = null;
 
+    public static PlayerMovement GetPlayer()
+    {
+        return mInstance.mPlayer;
+    }
+
     public static bool CanMakeConnection(int pPathBlockInstance)
     {
         if(mInstance.mActiveConnections.ContainsKey(pPathBlockInstance))
