@@ -135,6 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mIsMoving: 0
   mTraversed: 0
+  mIsEnemy: 0
   mPlayerWaypoints: []
   mTrySnapping: 0
 --- !u!1 &3052265923326278139
@@ -509,5 +510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e6260f7a655c5419d3644c22dde040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toonMaterial: {fileID: 0}
-  toonMaterialHighlight: {fileID: 0}
+  toonMaterial: {fileID: 2100000, guid: 2bdc3cbcdecb6484aa2212b6ae27ae9c, type: 2}
+  toonMaterialHighlight: {fileID: 2100000, guid: a20a693b2cc84e6458423da88a5c2455,
+    type: 2}
