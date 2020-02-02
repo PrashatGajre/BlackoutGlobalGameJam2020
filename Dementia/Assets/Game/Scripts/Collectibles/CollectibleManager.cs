@@ -40,6 +40,10 @@ public class CollectibleManager : MonoBehaviour
                 LightObject aObject = mAvailableLights[0];
                 mAvailableLights.RemoveAt(0);
                 aObject.PlaceLight(aEnemiesAfterPlayer);
+                if(!LevelManager.Instance.mTutDone)
+                {
+                    LevelManager.Instance.StopTutorial();
+                }
             }
         }
     }
