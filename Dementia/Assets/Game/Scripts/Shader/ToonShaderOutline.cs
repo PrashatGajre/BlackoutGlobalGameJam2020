@@ -4,6 +4,7 @@ public class ToonShaderOutline : MonoBehaviour
 {    
     public Material toonMaterial;
     public Material toonMaterialHighlight;
+    public Material toonMaterialSnapped;
 
     Material[] materials;
     MeshRenderer[] meshRenderers = new MeshRenderer[1];
@@ -21,6 +22,7 @@ public class ToonShaderOutline : MonoBehaviour
         materials[1] = toonMaterialHighlight;
         foreach (MeshRenderer mr in meshRenderers)
         {
+            if(mr.GetComponent<SnapPoint>() == null)
             mr.materials = materials;
         }
     }
