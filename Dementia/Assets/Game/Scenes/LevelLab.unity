@@ -7729,6 +7729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6824f8e1f38f1c04aaff1b21bd11fb18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mRadius: 10
+  mDistance: 10
   lightObjects: []
   playerWin: {fileID: 0}
   enemyRangeDetectors: []
