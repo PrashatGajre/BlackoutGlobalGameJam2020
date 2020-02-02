@@ -22,6 +22,7 @@ public class GameOverPanel : MonoBehaviour
         if(WaypointManager.GetPlayer().mDead)
         {
             mGameOverPanel.SetActive(true);
+            AudioManager.PlaySFX("Player_Death");
             _dead = true;
         }
     }

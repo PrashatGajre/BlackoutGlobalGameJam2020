@@ -15,7 +15,7 @@ public class ToonShaderOutline : MonoBehaviour
         meshRenderers = GetComponentsInChildren<MeshRenderer>(true);
     }
 
-    private void OnMouseDown()
+    public void MouseDown()
     {
         materials = new Material[2];
         materials[0] = toonMaterial;
@@ -27,13 +27,25 @@ public class ToonShaderOutline : MonoBehaviour
         }
     }
 
-    private void OnMouseUp()
+    public void MouseUp()
     {
         materials = new Material[1];
         materials[0] = toonMaterial;
         foreach (MeshRenderer mr in meshRenderers)
         {
             mr.materials = materials;
+        }
+    }
+
+    public void SnappedMaterial()
+    {
+        materials = new Material[2];
+        materials[0] = toonMaterial;
+        materials[1] = toonMaterialSnapped;
+        foreach (MeshRenderer mr in meshRenderers)
+        {
+            if (mr.GetComponent<SnapPoint>() == null)
+                mr.materials = materials;
         }
     }
 }

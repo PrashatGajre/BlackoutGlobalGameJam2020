@@ -34,6 +34,7 @@ public class MoveBlocks : MonoBehaviour
             Destroy(GetComponent<AnimatePlacableObject>());
             pathBlock.mIsMoving = true;
             parent.position = new Vector3(pPosition.x, 0, pPosition.z);
+        //pathBlock.mTrySnapping = true;
             parent.localRotation = rotation;
         }
     }
