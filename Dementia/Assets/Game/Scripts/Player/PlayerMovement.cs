@@ -110,7 +110,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         float aAngle = Vector3.SignedAngle(transform.right, pMoveVector,Vector3.up);
-        Debug.Log(aAngle);
         mAnimator.SetFloat("IdleMag", 1.0f);
         mRenderer.flipX = false;
         if (aAngle >= 15f && aAngle <= 15f)
