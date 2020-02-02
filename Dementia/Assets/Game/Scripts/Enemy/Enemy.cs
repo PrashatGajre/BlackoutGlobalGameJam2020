@@ -18,7 +18,12 @@ public class Enemy : MonoBehaviour
             return;
         }
 
-        
+        if(mRangeDetector.mPlayer.mDead)
+        {
+            return;
+        }
+
+        mRangeDetector.mPlayer.KillPlayer();
     }
 
 }
