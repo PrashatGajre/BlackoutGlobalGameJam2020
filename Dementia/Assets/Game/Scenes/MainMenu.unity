@@ -2263,5 +2263,5 @@ MonoBehaviour:
     mName: Sfx
     mExposedVolVariableName: SfxVol
   mAudioData:
-  - mAudioClip: {fileID: 0}
+  - mAudioClip: {fileID: 8300000, guid: 4c9c06f0f22cf462aa13590466bfe3d3, type: 3}
     mAudioGroup: Music
