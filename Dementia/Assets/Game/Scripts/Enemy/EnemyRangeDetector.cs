@@ -27,6 +27,7 @@ public class EnemyRangeDetector : MonoBehaviour
         if(aPlayer != null)
         {
             mPlayer = aPlayer;
+            LevelManager.Instance.OnEnemyAlarmOn();
         }
     }
 
@@ -47,6 +48,7 @@ public class EnemyRangeDetector : MonoBehaviour
         if(other.GetComponent<PlayerMovement>())
         {
             mPlayer = null;
+            LevelManager.Instance.OnEnemyAlarmOff();
         }
     }
 }

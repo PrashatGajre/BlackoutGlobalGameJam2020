@@ -72,6 +72,15 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void OnEnemyAlarmOn()
+    {
+        skybox.Alarm();
+    }
+    public void OnEnemyAlarmOff()
+    {
+        skybox.Ambient();
+    }
+
     private void OnApplicationQuit()
     {
         m_ShuttingDown = true;
