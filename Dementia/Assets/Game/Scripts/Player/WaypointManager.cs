@@ -28,6 +28,7 @@ public class WaypointManager : MonoBehaviour
         return true;
     }
 
+
     public static void AddNewConnection(Connection pConnection)
     {
         int aSelfConId = pConnection.mSelfBlockSnapPoint.mParentBlock.GetInstanceID();
@@ -43,7 +44,7 @@ public class WaypointManager : MonoBehaviour
 
         mInstance.mActiveConnections[aSelfConId].Add(pConnection.mOtherBlockSnapPoint.mParentBlock);
         mInstance.mActiveConnections[aOthConId].Add(pConnection.mSelfBlockSnapPoint.mParentBlock);
-
+        pConnection.mOtherBlockSnapPoint.mParentBlock.mNextConnection = new Connection(pConnection.mOtherBlockSnapPoint, pConnection.mSelfBlockSnapPoint);
         if (mInstance.mActivePathBlock == pConnection.mOtherBlockSnapPoint.mParentBlock
             || mInstance.mActivePathBlock == pConnection.mSelfBlockSnapPoint.mParentBlock)
         {
@@ -92,21 +93,22 @@ public class WaypointManager : MonoBehaviour
         }
 
         return (aPBlock.mPlayerWaypoints[1].transform.position + 
-            (mInstance.mActivePathBlock.mCurrentConnection.mOtherBlockSnapPoint.transform.position - 
+            (mInstance.mActivePathBlock.mNextConnection.mOtherBlockSnapPoint.transform.position - 
             aPBlock.mPlayerWaypoints[1].transform.position) / 2);
 
     }
 
     public static void RemoveEnemyConnection()
     {
-        RemovePreviousConnection(mInstance.mActivePathBlock.mCurrentConnection);
+        RemovePreviousConnection(mInstance.mActivePathBlock.mNextConnection);
     }
 
     public static void RemovePreviousConnection(Connection pConnection)
     {
         int aSelfConId = pConnection.mSelfBlockSnapPoint.mParentBlock.GetInstanceID();
         int aOthConId = pConnection.mOtherBlockSnapPoint.mParentBlock.GetInstanceID();
-
+        pConnection.mSelfBlockSnapPoint.mParentBlock.mCurrentConnection = new Connection(null, null);
+        pConnection.mOtherBlockSnapPoint.mParentBlock.mNextConnection = new Connection(null, null);
         if (mInstance.mActiveConnections.ContainsKey(aSelfConId))
         {
             if(mInstance.mActiveConnections[aSelfConId].Contains(pConnection.mOtherBlockSnapPoint.mParentBlock))
@@ -126,6 +128,10 @@ public class WaypointManager : MonoBehaviour
 
     public static void SetActivePathblock(PathBlock pBlock)
     {
+        if(mInstance.mActivePathBlock == pBlock)
+        {
+            return;
+        }
         if(mInstance.mActivePathBlock != null)
         {
             mInstance.mActivePathBlock.mTraversed = true;
@@ -168,7 +174,7 @@ public class WaypointManager : MonoBehaviour
                 {
                     if(!aBlock.mTraversed)
                     {
-                        int aClosestPoint = mInstance.GetClosestWaypoint(mInstance.mActivePathBlock.mCurrentConnection.mOtherBlockSnapPoint.transform.position);
+                        int aClosestPoint = mInstance.GetClosestWaypoint(mInstance.mActivePathBlock.mNextConnection.mOtherBlockSnapPoint.transform.position);
                         if(aClosestPoint > pCurrentWaypoint.mWaypointIx && pCurrentWaypoint.mWaypointIx + 1 < mInstance.mActivePathBlock.mPlayerWaypoints.Length)
                         {
                             return mInstance.mActivePathBlock.mPlayerWaypoints[pCurrentWaypoint.mWaypointIx + 1];
@@ -188,7 +194,7 @@ public class WaypointManager : MonoBehaviour
                 {
                     return mInstance.mActivePathBlock.mPlayerWaypoints[aSecond];
                 }
-                else if(aOneDirection > 0 && aSecond >= mInstance.mActivePathBlock.mPlayerWaypoints.Length)
+                else if(aOneDirection >= 0 && aSecond >= mInstance.mActivePathBlock.mPlayerWaypoints.Length)
                 {
                     return mInstance.mActivePathBlock.mPlayerWaypoints[aOneDirection];
                 }

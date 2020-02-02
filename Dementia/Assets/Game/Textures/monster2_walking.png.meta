@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 6781085aba1684384b2f01400557d868
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5040216324257921407
+    second: monster2_walking_0
+  - first:
+      213: -643808763548508606
+    second: monster2_walking_1
+  - first:
+      213: 6940756327347874414
+    second: monster2_walking_2
+  - first:
+      213: -5374206887925483308
+    second: monster2_walking_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +96,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: monster2_walking_0
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 81
+        width: 4480
+        height: 4020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d084a4d2c3c9394380eb07310b661d1
+      internalID: 5040216324257921407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster2_walking_1
+      rect:
+        serializedVersion: 2
+        x: 4969
+        y: 81
+        width: 4480
+        height: 3867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ad75913fac72240932fa1fd6751d2a
+      internalID: -643808763548508606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster2_walking_2
+      rect:
+        serializedVersion: 2
+        x: 9872
+        y: 81
+        width: 4480
+        height: 4020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f345bf6bae117640bf68bc06edc9855
+      internalID: 6940756327347874414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster2_walking_3
+      rect:
+        serializedVersion: 2
+        x: 14796
+        y: 59
+        width: 4480
+        height: 4020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a43be7bedb6d304ebea36c41dcf980d
+      internalID: -5374206887925483308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

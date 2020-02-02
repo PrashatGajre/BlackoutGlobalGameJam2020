@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
         mMovePosition = transform.position;
         mPreviousWaypoint = null;
         mCurrentWaypoint = null;
+        WaypointManager.SetActivePlayer(this);
     }
 
     public void ResetWaypoint()
