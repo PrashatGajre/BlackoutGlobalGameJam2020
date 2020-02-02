@@ -26,26 +26,7 @@ public class PathBlock : MonoBehaviour
 
     [Header("Debug")]
     public bool mTrySnapping;
-
-    #region MOVEMENT
-    private Transform parent;
-    private MouseInput mouseInput;
-    #endregion
-    #region ROTATION
-    private Quaternion rotation = Quaternion.identity;
-    [Header("Movement/Rotation")]
-    [SerializeField] private float rotationAngle = 15.0f;
-    #endregion
-    private void Awake()
-    {
-        parent = transform.parent;
-        if (gameObject.GetComponent<MouseInput>() == null)
-        {
-            gameObject.AddComponent<MouseInput>();
-        }
-        mouseInput = gameObject.GetComponent<MouseInput>();
-    }
-
+    
     void Start()
     {
         if(mPlayerWaypoints.Length == 0)
@@ -58,31 +39,8 @@ public class PathBlock : MonoBehaviour
         }
     }
 
-    public void MoveBlock(Vector3 pPosition)
-    {
-        if (pPosition != Vector3.zero)
-        {
-            mIsMoving = true;
-            parent.position = new Vector3(pPosition.x, 0, pPosition.z);
-            parent.localRotation = rotation;
-        }
-    }
-
-    public void RotateBlock()
-    {
-        mIsMoving = true;
-        parent.Rotate(Vector3.up * rotationAngle);
-        rotation = parent.localRotation;
-    }
-
     void Update()
     {
-        MoveBlock(mouseInput.MouseDragPosition());
-        if (mouseInput.IsMouseRightUp())
-        {
-            RotateBlock();
-        }
-
         if(mTrySnapping)
         {
             SnapBlock();
