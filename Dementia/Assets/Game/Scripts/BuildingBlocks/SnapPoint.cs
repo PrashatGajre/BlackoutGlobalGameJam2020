@@ -83,9 +83,12 @@ public class SnapPoint : MonoBehaviour
             else if(mParentBlock.mActiveClosestPoints.ContainsKey(this.GetInstanceID()))
             {
                 mParentBlock.mActiveClosestPoints.Remove(this.GetInstanceID());
-                PathBlock.mActiveConnections[this.GetInstanceID()].mSelfBlockSnapPoint.gameObject.GetComponent<MeshRenderer>().enabled = false;
-                PathBlock.mActiveConnections[this.GetInstanceID()].mOtherBlockSnapPoint.gameObject.GetComponent<MeshRenderer>().enabled = false;
-                PathBlock.mActiveConnections.Remove(this.GetInstanceID());
+                if (PathBlock.mActiveConnections.ContainsKey(this.GetInstanceID()))
+                {
+                    PathBlock.mActiveConnections[this.GetInstanceID()].mSelfBlockSnapPoint.gameObject.GetComponent<MeshRenderer>().enabled = false;
+                    PathBlock.mActiveConnections[this.GetInstanceID()].mOtherBlockSnapPoint.gameObject.GetComponent<MeshRenderer>().enabled = false;
+                    PathBlock.mActiveConnections.Remove(this.GetInstanceID());
+                }
             }
         }
     }

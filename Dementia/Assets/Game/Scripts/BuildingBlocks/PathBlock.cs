@@ -89,17 +89,17 @@ public class PathBlock : MonoBehaviour
         Vector3 aStartGoal = aSelectedConnection.mSelfBlockSnapPoint.transform.position;
         aEndGoal.y = aStartGoal.y = 0;
         transform.parent.position += (aEndGoal - aStartGoal);
-        if (mCurrentConnection.mSelfBlockSnapPoint.transform.parent != null)
+        if (mCurrentConnection.mSelfBlockSnapPoint.transform.parent.parent != null)
         {
-            ToonShaderOutline toonShaderOutlineSelf = mCurrentConnection.mSelfBlockSnapPoint.transform.parent.GetComponent<ToonShaderOutline>();
+            ToonShaderOutline toonShaderOutlineSelf = mCurrentConnection.mSelfBlockSnapPoint.transform.parent.parent.GetComponent<ToonShaderOutline>();
             if (toonShaderOutlineSelf != null)
             {
                 toonShaderOutlineSelf.SnappedMaterial();
             }
         }
-        if (mCurrentConnection.mOtherBlockSnapPoint.transform.parent != null)
+        if (mCurrentConnection.mOtherBlockSnapPoint.transform.parent.parent != null)
         {
-            ToonShaderOutline toonShaderOutlineOther = mCurrentConnection.mOtherBlockSnapPoint.transform.parent.GetComponent<ToonShaderOutline>(); if (toonShaderOutlineOther != null)
+            ToonShaderOutline toonShaderOutlineOther = mCurrentConnection.mOtherBlockSnapPoint.transform.parent.parent.GetComponent<ToonShaderOutline>(); if (toonShaderOutlineOther != null)
             {
                 toonShaderOutlineOther.SnappedMaterial();
             }

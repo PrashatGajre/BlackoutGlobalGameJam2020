@@ -256,7 +256,8 @@ public class WaypointManager : MonoBehaviour
             {
                 if(!aBlock.mTraversed)
                 {
-                    pFinalPosition = aBlock.mCurrentConnection.mSelfBlockSnapPoint.transform.position;
+                    pFinalPosition = aBlock.mCurrentConnection.mSelfBlockSnapPoint.transform.position + 
+                        (aBlock.mCurrentConnection.mSelfBlockSnapPoint.transform.position - mInstance.mPlayer.transform.position).normalized * 5.0f;
                     return;
                 }
             }

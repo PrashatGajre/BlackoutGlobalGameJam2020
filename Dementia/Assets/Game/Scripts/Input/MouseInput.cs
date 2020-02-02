@@ -32,7 +32,10 @@ public class MouseInput : MonoBehaviour
 
     private void Update()
     {
-
+        if (selectedObject != null && selectedObject != this.gameObject)
+        {
+            return; 
+        }
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))   
