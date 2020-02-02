@@ -50,5 +50,9 @@ public class MoveBlocks : MonoBehaviour
         {
             RotateBlock();
         }
+        if (mouseInput.IsMouseLeftUp())
+        {
+            pathBlock.mTrySnapping = true;
+        }
     }
 }
