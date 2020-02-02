@@ -44,8 +44,7 @@ public class PlayerMovement : MonoBehaviour
             WaypointManager.GetPlayerFinalPosition(ref mMovePosition);
             if(mMovePosition == aTempMP)
             {
-                mDead = true;
-                GetComponent<Rigidbody>().isKinematic = false;
+                KillPlayer();
             }
             mCurrentWaypoint = null;
             mPreviousWaypoint = null;
@@ -56,6 +55,12 @@ public class PlayerMovement : MonoBehaviour
             mCurrentWaypoint = aWayPoint;
             mMovePosition = mCurrentWaypoint.transform.position;
         }
+    }
+
+    public void KillPlayer()
+    {
+        mDead = true;
+        GetComponent<Rigidbody>().isKinematic = false;
     }
 
     void Update()

@@ -6,6 +6,7 @@ public class EnemyRangeDetector : MonoBehaviour
 {
     public PlayerMovement mPlayer;
     public float mSpeed;
+    public bool mDead;
 
 
     void Update()
