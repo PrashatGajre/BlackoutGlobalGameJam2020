@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerWin : MonoBehaviour
 {
     public bool mWin = false;
+    public GameObject mWinScreen;
     
     void OnTriggerEnter(Collider other)
     {
@@ -12,6 +13,7 @@ public class PlayerWin : MonoBehaviour
         if(aPlayer != null)
         {
             mWin = true;
+            mWinScreen.SetActive(true);
         }
     }
 }
