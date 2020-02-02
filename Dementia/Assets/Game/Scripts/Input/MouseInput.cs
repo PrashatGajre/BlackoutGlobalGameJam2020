@@ -21,7 +21,7 @@ public class MouseInput : MonoBehaviour
     bool draggable = false;
 
     static bool objectselected = false;
-    GameObject selectedObject = null;
+    static GameObject selectedObject = null;
 
     ToonShaderOutline toonShaderOutline;
 
@@ -34,15 +34,21 @@ public class MouseInput : MonoBehaviour
     {
         if (selectedObject != null && selectedObject != this.gameObject)
         {
-            return; 
+            return;
         }
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))   
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
         {
             if (hit.transform.gameObject.name != gameObject.name) //Works only if the oject with the script is clicked
             {
                 draggable = false;
+                if (selectedObject != null)
+                {
+                    MouseInput mouse = selectedObject.GetComponent<MouseInput>();
+                    mouse.draggable = true;
+                    mouse.MouseDrag();
+                }
                 return;
             }
             else
@@ -64,7 +70,7 @@ public class MouseInput : MonoBehaviour
             {
                 objectselected = true;
                 toonShaderOutline.MouseDown();
-                if (selectedObject == null)
+                if (selectedObject == null || selectedObject != this.gameObject)
                 {
                     selectedObject = this.gameObject;
                 }
@@ -91,10 +97,10 @@ public class MouseInput : MonoBehaviour
                 isDragging = false;
                 objectselected = false;
                 toonShaderOutline.MouseUp();
-                if (selectedObject == this.gameObject)
-                {
-                    selectedObject = null;
-                }
+                //if (selectedObject == this.gameObject)
+                //{
+                selectedObject = null;
+                //}
                 isMouseLeftUp = true;
             }
             else
@@ -134,7 +140,7 @@ public class MouseInput : MonoBehaviour
     {
         return isMouseLeftDown;
     }
-    
+
     public bool IsMouseLeftUp()
     {
         return isMouseLeftUp;

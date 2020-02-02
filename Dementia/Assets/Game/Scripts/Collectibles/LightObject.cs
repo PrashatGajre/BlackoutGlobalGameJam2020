@@ -29,7 +29,10 @@ public class LightObject : MonoBehaviour
         {
             return;
         }
-
+        if (other.GetComponent<PlayerMovement>() == null)
+        {
+            return;
+        }
         mCollected = true;
         CollectibleManager.AddLight(this);
         gameObject.SetActive(false);
