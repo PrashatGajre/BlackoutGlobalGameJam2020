@@ -23,7 +23,7 @@ public class PlacableObjectEditor : Editor
         {
             for (int i = 0; i < po.wayPoints.Count; i++)
             {
-                po.wayPoints[i] = Handles.DoPositionHandle(po.wayPoints[i] + po.transform.position, Quaternion.identity) - po.transform.position;
+                po.wayPoints[i] = (Handles.DoPositionHandle(po.wayPoints[i] + po.transform.position, Quaternion.identity) - po.transform.position);
             }
 
             Handles.color = Color.red;
