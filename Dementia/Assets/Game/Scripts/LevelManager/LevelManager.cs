@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+
 
 public class LevelManager : MonoBehaviour
 {
@@ -14,6 +16,8 @@ public class LevelManager : MonoBehaviour
     public List<EnemyRangeDetector> enemyRangeDetectors;
     public List<PathBlock> pathBlocks;
     public SkyboxShader skybox;
+
+    public CinemachineTargetGroup mTargetGroup;
 
     public bool mPlay = true;
     public bool mTutDone = false;
