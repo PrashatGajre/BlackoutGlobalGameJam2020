@@ -4813,7 +4813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mPlayer: {fileID: 0}
-  mSpeed: 0
+  mSpeed: 1
   mDead: 0
 --- !u!1 &8416706756497088264
 GameObject:

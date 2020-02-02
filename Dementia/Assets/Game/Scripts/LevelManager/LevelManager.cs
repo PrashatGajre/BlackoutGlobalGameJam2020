@@ -15,6 +15,8 @@ public class LevelManager : MonoBehaviour
     public List<PathBlock> pathBlocks;
     public SkyboxShader skybox;
 
+    public bool mPlay = true;
+    public bool mTutDone = false;
     /// <summary>
     /// Access LevelManager instance through this propriety.
     /// </summary>
@@ -91,4 +93,19 @@ public class LevelManager : MonoBehaviour
     {
         m_ShuttingDown = true;
     }
+
+
+    public void StartTutorial()
+    {
+        mPlay = false;
+        //ui
+    }
+
+    public void StopTutorial()
+    {
+        mPlay = true;
+        mTutDone = true;
+    }
+
+
 }
