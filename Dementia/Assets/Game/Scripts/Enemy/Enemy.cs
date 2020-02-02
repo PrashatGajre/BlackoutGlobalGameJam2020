@@ -6,19 +6,40 @@ public class Enemy : MonoBehaviour
 {
     public EnemyRangeDetector mRangeDetector;
 
-
     void OnTriggerEnter(Collider other)
     {
-        if(mRangeDetector.mPlayer == null)
+        if(!mRangeDetector.mDead)
+        {
+            CheckLight(other);
+        }
+        if(!mRangeDetector.mDead)
+        {
+            CheckPlayer(other);
+        }
+    }
+
+    void CheckLight(Collider other)
+    {
+        LightObject aLight = other.GetComponent<LightObject>();
+        if(aLight ==null)
         {
             return;
         }
-        if(mRangeDetector.mPlayer.gameObject != other.gameObject)
+        mRangeDetector.mDead = true;
+    }
+
+    void CheckPlayer(Collider other)
+    {
+        if (mRangeDetector.mPlayer == null)
+        {
+            return;
+        }
+        if (mRangeDetector.mPlayer.gameObject != other.gameObject)
         {
             return;
         }
 
-        if(mRangeDetector.mPlayer.mDead)
+        if (mRangeDetector.mPlayer.mDead)
         {
             return;
         }
