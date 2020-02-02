@@ -10,7 +10,7 @@ public class Pointer : MonoBehaviour
     {
         if (pointTo == null)
         {
-           pointTo = GameObject.FindGameObjectWithTag("Goal").transform;
+            pointTo = LevelManager.Instance.playerWin.transform;
         }
     }
 
